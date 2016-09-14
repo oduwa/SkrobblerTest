@@ -18,7 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[SKMapsService sharedInstance] initializeSKMapsWithAPIKey:@"d24434485a48c048e85e700243fb50b9732c70414cd00ddb55b7698a26054d04" settings:nil];
+    SKMapsInitSettings* initSettings = [[SKMapsInitSettings alloc]init];
+    initSettings.mapDetailLevel = SKMapDetailLevelFull; //Use Full version of maps.
+    //Can be set to a light version.
+    initSettings.connectivityMode = SKConnectivityModeOffline;
+    [[SKMapsService sharedInstance] initializeSKMapsWithAPIKey:@"d24434485a48c048e85e700243fb50b9732c70414cd00ddb55b7698a26054d04" settings:initSettings];
     return YES;
 }
 

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "39E417DFF7C64706CA6F914146CA60D9"
+               BlueprintIdentifier = "445143C3CBBF1B97A9F3029ECB552BD3"
                BuildableName = "Pods_SkrobblerTast.framework"
                BlueprintName = "Pods-SkrobblerTast"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "39E417DFF7C64706CA6F914146CA60D9"
+            BlueprintIdentifier = "445143C3CBBF1B97A9F3029ECB552BD3"
             BuildableName = "Pods_SkrobblerTast.framework"
             BlueprintName = "Pods-SkrobblerTast"
             ReferencedContainer = "container:Pods.xcodeproj">

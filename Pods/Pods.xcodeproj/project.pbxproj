@@ -7,117 +7,194 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02FC12722D5D1398DA9967D09A84B590 /* Pods-SkrobblerTast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 881A1CB1DA04712728FA01CE3C1967C6 /* Pods-SkrobblerTast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38419ABC87F5A63D087FC2A25DA533B4 /* Pods-SkrobblerTast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E383F55A07DDEC54FC9EAE7BBBA4180 /* Pods-SkrobblerTast-dummy.m */; };
-		87BEE209DAEF4B1E66F04C031DE6EB50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		0036D34ABCD708AF31000D7538550239 /* NVHTarGzip.h in Headers */ = {isa = PBXBuildFile; fileRef = F34CBE53E4886443A5341A598D6B5D75 /* NVHTarGzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0483F8C3598E23FC2480834340A8C2A3 /* NVHTarFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B08645F2F521F1D2EE1E34FD82E9F735 /* NVHTarFile.m */; };
+		26392188358C150BF072D6014D33810C /* NVHGzipFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2861BE31805A724DA8DCC27B56B8A2CA /* NVHGzipFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F32C132BA6CA539797BB71CA4BB7A6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2F905ED582EA1DDB3F78E650CF437533 /* NVHTarGzip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8ABF3CEC1205D279067CFD2746EA12 /* NVHTarGzip-dummy.m */; };
+		337C25D2E692E7815C0DCA9DD8C499B9 /* NSFileManager+NVHFileSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E39AE2E183EA503BC63D1FFCC84B73C /* NSFileManager+NVHFileSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72881B4BFAA31F868E87F43A2704EE72 /* NVHProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = B73E4F4E833FB3E73DE6034E790ECF07 /* NVHProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B45090F27E15633D78CC8B4B6429DDE /* NVHProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 590438E100C9263F81E9635164430960 /* NVHProgress.m */; };
+		7C3FCFA293A19B136074846F94ABFB0E /* NVHTarFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F03B1940885D2F07C8D6232B24CABE19 /* NVHTarFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89F22E12BD984906570CD1F6D5797177 /* NVHFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC5F560635B31C4846DF4132330E0D3 /* NVHFile.m */; };
+		90056322AD4FFE0722175546471AC371 /* NVHTarGzip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8FD753B53F668EB612C51C27AD22F9C /* NVHTarGzip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A078ED5457E7F1C523F01640FFAE6D77 /* NVHTarGzip.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F036F0DC799D3D8729A9CC58D751 /* NVHTarGzip.m */; };
+		D28A43880707AA785441F5109623B41F /* NVHGzipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BFE9F79A166BA6A2DE904D27EC5905 /* NVHGzipFile.m */; };
+		D2DE98DDEC4D84FCD8770D92A61AFE97 /* NSFileManager+NVHFileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D1B409B57BE956792BE80D3CEA56C5 /* NSFileManager+NVHFileSize.m */; };
+		DF32D013B2C16227662A095A2876BE15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EB95A8B262E12F652E2BEC198F0E18DE /* Pods-SkrobblerTast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 881A1CB1DA04712728FA01CE3C1967C6 /* Pods-SkrobblerTast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFE10188E8E8AB1856649BD81558AD96 /* NVHFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E787BFED9CD0A2FFD8C42D4C37B942 /* NVHFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F447A3836284AE3F5EED3ADD5297D231 /* Pods-SkrobblerTast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E383F55A07DDEC54FC9EAE7BBBA4180 /* Pods-SkrobblerTast-dummy.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		511FBF6C92F24356125E084371CA1B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B31A22BE4BF3DACCCCF7E6884525B120;
+			remoteInfo = NVHTarGzip;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		07D925B762D87F530B436A03AADD5477 /* SKMapCustomPOI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapCustomPOI.h; path = SKMaps.framework/Versions/A/Headers/SKMapCustomPOI.h; sourceTree = "<group>"; };
-		0822EC87E268EC5B3BCEC4DC2B646925 /* SKOfflinePackagesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKOfflinePackagesManager.h; path = SKMaps.framework/Versions/A/Headers/SKOfflinePackagesManager.h; sourceTree = "<group>"; };
-		0C864E2AB1FCFFF8689EA2A99482513B /* SKMapView+Overlays.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKMapView+Overlays.h"; path = "SKMaps.framework/Versions/A/Headers/SKMapView+Overlays.h"; sourceTree = "<group>"; };
-		0CD8BEA8E18905E11ED4D213B42D0BC2 /* SKPositionerService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPositionerService.h; path = SKMaps.framework/Versions/A/Headers/SKPositionerService.h; sourceTree = "<group>"; };
-		0D1022E0CC254DBB307EB5A7A608572B /* SKAdvisorTTSSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAdvisorTTSSettings.h; path = SKMaps.framework/Versions/A/Headers/SKAdvisorTTSSettings.h; sourceTree = "<group>"; };
-		0D634B4C084D9B753FCC3FFB21373AB9 /* SKTTSPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKTTSPlayer.h; path = SKMaps.framework/Versions/A/Headers/SKTTSPlayer.h; sourceTree = "<group>"; };
-		0F313443FC7BDFB2122BE90FF37A6E28 /* SKTrailSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKTrailSettings.h; path = SKMaps.framework/Versions/A/Headers/SKTrailSettings.h; sourceTree = "<group>"; };
-		1358B04319044D5ABF2657FF8D6D8D11 /* SKMapScaleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapScaleView.h; path = SKMaps.framework/Versions/A/Headers/SKMapScaleView.h; sourceTree = "<group>"; };
-		1756C0A92BA4536B6A58B388E4F3211C /* SKRouteAlternativeSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRouteAlternativeSettings.h; path = SKMaps.framework/Versions/A/Headers/SKRouteAlternativeSettings.h; sourceTree = "<group>"; };
-		18661AB24633941D32D580751FD5D198 /* SKRoutingService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRoutingService.h; path = SKMaps.framework/Versions/A/Headers/SKRoutingService.h; sourceTree = "<group>"; };
-		1CE6C99FD7438473DA2E7A863AB845F4 /* SKRoutingDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRoutingDelegate.h; path = SKMaps.framework/Versions/A/Headers/SKRoutingDelegate.h; sourceTree = "<group>"; };
-		22F3EFBA0B146BD83D1051AC1077925F /* SKTrackablePOIRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKTrackablePOIRule.h; path = SKMaps.framework/Versions/A/Headers/SKTrackablePOIRule.h; sourceTree = "<group>"; };
-		25A6D39A0386593D237802EA1860DB6C /* Pods_SkrobblerTast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkrobblerTast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27A87FC2A166C3706C9BDC1EB30AEBCB /* SKMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapView.h; path = SKMaps.framework/Versions/A/Headers/SKMapView.h; sourceTree = "<group>"; };
-		28FD31E3AB596AB941A9AE3C851EE732 /* SKRoutingService+GPSFiles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKRoutingService+GPSFiles.h"; path = "SKMaps.framework/Versions/A/Headers/SKRoutingService+GPSFiles.h"; sourceTree = "<group>"; };
-		2C70B2C3F5E239737C027DCC488F548B /* SKDetectedPOI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKDetectedPOI.h; path = SKMaps.framework/Versions/A/Headers/SKDetectedPOI.h; sourceTree = "<group>"; };
-		30E9DE6CD81FD43C96BA34B446A72789 /* SKCalloutView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKCalloutView.h; path = SKMaps.framework/Versions/A/Headers/SKCalloutView.h; sourceTree = "<group>"; };
-		31B16DEC2D4434D1F0A9DD3029B8F291 /* SKMapPackageDownloadInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapPackageDownloadInfo.h; path = SKMaps.framework/Versions/A/Headers/SKMapPackageDownloadInfo.h; sourceTree = "<group>"; };
-		37CE2E3EADBC374C2E8CE741FD013752 /* SKAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAnnotationView.h; path = SKMaps.framework/Versions/A/Headers/SKAnnotationView.h; sourceTree = "<group>"; };
+		007EB72B09601B88B36599A7FBC904C7 /* SKMapPOI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapPOI.h; path = SKMaps.framework/Headers/SKMapPOI.h; sourceTree = "<group>"; };
+		05EC3BDF81D774D8C61F30DD4381CEAA /* SKMapView+RealReach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKMapView+RealReach.h"; path = "SKMaps.framework/Headers/SKMapView+RealReach.h"; sourceTree = "<group>"; };
+		084C79E04AE04CADF96CB902508734AA /* SKTrackablePOIRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKTrackablePOIRule.h; path = SKMaps.framework/Headers/SKTrackablePOIRule.h; sourceTree = "<group>"; };
+		0DA671939909183A9C9CD5520ED1847B /* SKMapViewStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapViewStyle.h; path = SKMaps.framework/Headers/SKMapViewStyle.h; sourceTree = "<group>"; };
+		1025B614EEDA0C0766D7CA3B370A3F2B /* NVHTarGzip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVHTarGzip.xcconfig; sourceTree = "<group>"; };
+		10A36E4A5A6970E37DCF3E203A551EB5 /* SKVisualAdviceConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKVisualAdviceConfiguration.h; path = SKMaps.framework/Headers/SKVisualAdviceConfiguration.h; sourceTree = "<group>"; };
+		166223A3219BA253E31DA1BAC813A2F7 /* SKZoomLevelConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKZoomLevelConfiguration.h; path = SKMaps.framework/Headers/SKZoomLevelConfiguration.h; sourceTree = "<group>"; };
+		17B0085A6CF1179CFE26BA95CB3146CE /* SKMapSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapSettings.h; path = SKMaps.framework/Headers/SKMapSettings.h; sourceTree = "<group>"; };
+		193256F7B0A60CDA37D1F2A2C4EB92D8 /* SKRoutingService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRoutingService.h; path = SKMaps.framework/Headers/SKRoutingService.h; sourceTree = "<group>"; };
+		19E3594AFE3FC3755CE7117366B4906D /* SKRealReachSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRealReachSettings.h; path = SKMaps.framework/Headers/SKRealReachSettings.h; sourceTree = "<group>"; };
+		1AE4B83655E88A7C5219B66E1F769A26 /* SKRouteAlternativeSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRouteAlternativeSettings.h; path = SKMaps.framework/Headers/SKRouteAlternativeSettings.h; sourceTree = "<group>"; };
+		1EF67A07A634C32B79DEBF9BCAFF7C70 /* SKPositionerServiceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPositionerServiceDelegate.h; path = SKMaps.framework/Headers/SKPositionerServiceDelegate.h; sourceTree = "<group>"; };
+		1F0DC8BE83AA48DA1B079A10D3A1B1DF /* Pods_SkrobblerTast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkrobblerTast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		257A7D1204213F98819837B64EFF959E /* SKPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPolyline.h; path = SKMaps.framework/Headers/SKPolyline.h; sourceTree = "<group>"; };
+		2649662C1FCD541332BA44BB3AC8BA7F /* SKMapCustomPOI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapCustomPOI.h; path = SKMaps.framework/Headers/SKMapCustomPOI.h; sourceTree = "<group>"; };
+		26F23578E6BE44C0710417177891DF35 /* SKAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAnnotation.h; path = SKMaps.framework/Headers/SKAnnotation.h; sourceTree = "<group>"; };
+		27F279961962FDBF598E9E5CCFE41FED /* SKCoordinate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKCoordinate.h; path = SKMaps.framework/Headers/SKCoordinate.h; sourceTree = "<group>"; };
+		2861BE31805A724DA8DCC27B56B8A2CA /* NVHGzipFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHGzipFile.h; path = Classes/NVHGzipFile.h; sourceTree = "<group>"; };
+		288C672544241AC067A98498E09984B5 /* SKMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = SKMaps.bundle; sourceTree = "<group>"; };
+		2C508173B3645135E74FDF971AE2E13B /* SKOneLineSearchSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKOneLineSearchSettings.h; path = SKMaps.framework/Headers/SKOneLineSearchSettings.h; sourceTree = "<group>"; };
+		3241E3A2ECB522891A80ABA8B0EB75EF /* SKAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAnnotationView.h; path = SKMaps.framework/Headers/SKAnnotationView.h; sourceTree = "<group>"; };
+		329544A7152A45ABD33B5FB066E56374 /* NVHTarGzip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NVHTarGzip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		370AB09238F7E83061FA23F539D3B9F5 /* SKMapInternationalizationSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapInternationalizationSettings.h; path = SKMaps.framework/Headers/SKMapInternationalizationSettings.h; sourceTree = "<group>"; };
+		374DC6E3678129CB2B2F8CBD219DAA35 /* SKViaPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKViaPoint.h; path = SKMaps.framework/Headers/SKViaPoint.h; sourceTree = "<group>"; };
+		375675A128D65D3EC70A254EABDB6B6F /* SKTrackablePOI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKTrackablePOI.h; path = SKMaps.framework/Headers/SKTrackablePOI.h; sourceTree = "<group>"; };
 		3918E986BB7312041ABA163416868A1B /* Pods-SkrobblerTast-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkrobblerTast-frameworks.sh"; sourceTree = "<group>"; };
+		3D5996ACC4FA4998545E0ABAB6D38975 /* SKTTSPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKTTSPlayer.h; path = SKMaps.framework/Headers/SKTTSPlayer.h; sourceTree = "<group>"; };
 		3E383F55A07DDEC54FC9EAE7BBBA4180 /* Pods-SkrobblerTast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkrobblerTast-dummy.m"; sourceTree = "<group>"; };
+		3E574EFE7C263AA157710DA8F5C70961 /* SKSearchServiceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSearchServiceDelegate.h; path = SKMaps.framework/Headers/SKSearchServiceDelegate.h; sourceTree = "<group>"; };
+		3E74004E472AAF30526C32778AFF8F03 /* SKMaps.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMaps.h; path = SKMaps.framework/Headers/SKMaps.h; sourceTree = "<group>"; };
 		4330CFBEFD8224A1EE8ADA0B52C84573 /* Pods-SkrobblerTast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SkrobblerTast.modulemap"; sourceTree = "<group>"; };
-		446DFB5B893575A91D6BC72F6190D87A /* SKPOICluster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPOICluster.h; path = SKMaps.framework/Versions/A/Headers/SKPOICluster.h; sourceTree = "<group>"; };
 		448462AF42AF3886316F32DEAA602194 /* Pods-SkrobblerTast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkrobblerTast.debug.xcconfig"; sourceTree = "<group>"; };
-		449FA70FB0B5C847247AF2ABC2CE7386 /* SKSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSearchResult.h; path = SKMaps.framework/Versions/A/Headers/SKSearchResult.h; sourceTree = "<group>"; };
-		44BF754E3608548B8166EB054B6BE856 /* SKZoomLevelConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKZoomLevelConfiguration.h; path = SKMaps.framework/Versions/A/Headers/SKZoomLevelConfiguration.h; sourceTree = "<group>"; };
-		4892597DC434A37B8F4DFCEA4C437551 /* SKCoordinate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKCoordinate.h; path = SKMaps.framework/Versions/A/Headers/SKCoordinate.h; sourceTree = "<group>"; };
-		4DC2E7C2E670927942CE646C596CFD4F /* SKMapViewStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapViewStyle.h; path = SKMaps.framework/Versions/A/Headers/SKMapViewStyle.h; sourceTree = "<group>"; };
-		4E9EBF7D5939DAA9E6E7DD2D284665AF /* SKPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPolygon.h; path = SKMaps.framework/Versions/A/Headers/SKPolygon.h; sourceTree = "<group>"; };
+		448AA90344389CD2CE12DE1478384FFD /* SKMapView+Style.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKMapView+Style.h"; path = "SKMaps.framework/Headers/SKMapView+Style.h"; sourceTree = "<group>"; };
+		449424C11F570EFF76D25CD093A7B1D0 /* NVHTarGzip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = NVHTarGzip.modulemap; sourceTree = "<group>"; };
+		4670669E765AD8893DF7C69A46650871 /* SKMapView+Overlays.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKMapView+Overlays.h"; path = "SKMaps.framework/Headers/SKMapView+Overlays.h"; sourceTree = "<group>"; };
+		47B08C30E2FA344096FE5FAE8CCCE5E5 /* SKCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKCircle.h; path = SKMaps.framework/Headers/SKCircle.h; sourceTree = "<group>"; };
+		47D1B409B57BE956792BE80D3CEA56C5 /* NSFileManager+NVHFileSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+NVHFileSize.m"; path = "Classes/NSFileManager+NVHFileSize.m"; sourceTree = "<group>"; };
+		498E8EDB80C59159162B1FD7D881EC16 /* SKAdvisorTTSSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAdvisorTTSSettings.h; path = SKMaps.framework/Headers/SKAdvisorTTSSettings.h; sourceTree = "<group>"; };
+		4A3300126382C91AA54BB24B828E1A8A /* SKSearchResultParent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSearchResultParent.h; path = SKMaps.framework/Headers/SKSearchResultParent.h; sourceTree = "<group>"; };
+		4A7E3E95B1C2AC1C9A3528BB76426518 /* SKMapVersioningDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapVersioningDelegate.h; path = SKMaps.framework/Headers/SKMapVersioningDelegate.h; sourceTree = "<group>"; };
+		4BB890A7822DE4D813D115962C95FE1C /* SKDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKDefinitions.h; path = SKMaps.framework/Headers/SKDefinitions.h; sourceTree = "<group>"; };
 		52C982A6E420A464CD54D18D0FEDECBD /* Pods-SkrobblerTast-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkrobblerTast-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5D537B133F240A9E5495D48869832861 /* SKNearbySearchSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKNearbySearchSettings.h; path = SKMaps.framework/Versions/A/Headers/SKNearbySearchSettings.h; sourceTree = "<group>"; };
-		60BD382CFAE408A94523A3C4FF34D52C /* SKTilesCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKTilesCacheManager.h; path = SKMaps.framework/Versions/A/Headers/SKTilesCacheManager.h; sourceTree = "<group>"; };
-		61BDEC316C8F79141F0ED0A5D1A7337E /* SKGPSFilesService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKGPSFilesService.h; path = SKMaps.framework/Versions/A/Headers/SKGPSFilesService.h; sourceTree = "<group>"; };
-		63DAC313E292EEC9E1061935BB5A08F7 /* SKTrackablePOI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKTrackablePOI.h; path = SKMaps.framework/Versions/A/Headers/SKTrackablePOI.h; sourceTree = "<group>"; };
-		6556B6FF6F4747CAA4346DA9028C09EF /* SKMapPOI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapPOI.h; path = SKMaps.framework/Versions/A/Headers/SKMapPOI.h; sourceTree = "<group>"; };
-		6716D36236FC1682A08E5EB97ECE03B7 /* SKMapView+RealReach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKMapView+RealReach.h"; path = "SKMaps.framework/Versions/A/Headers/SKMapView+RealReach.h"; sourceTree = "<group>"; };
-		69705D40E50F2B16B9C3C28FBDBCF2DF /* SKRouteInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRouteInformation.h; path = SKMaps.framework/Versions/A/Headers/SKRouteInformation.h; sourceTree = "<group>"; };
-		6E789F7CE66F035F1C2D0A57B529A0BE /* SKAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAnnotation.h; path = SKMaps.framework/Versions/A/Headers/SKAnnotation.h; sourceTree = "<group>"; };
-		7153AF63AF99955877E695C53143F1B3 /* SKAdvisorSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAdvisorSettings.h; path = SKMaps.framework/Versions/A/Headers/SKAdvisorSettings.h; sourceTree = "<group>"; };
-		73BD12B8BE3C4A60B3A81BF8D64A329B /* SKMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = SKMaps.bundle; sourceTree = "<group>"; };
-		74885F58DE08720068D7EC003A897DEC /* SKCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKCircle.h; path = SKMaps.framework/Versions/A/Headers/SKCircle.h; sourceTree = "<group>"; };
+		53E6BF55BBF644FD5A4C2E4CC93A4E54 /* SKRoutingDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRoutingDelegate.h; path = SKMaps.framework/Headers/SKRoutingDelegate.h; sourceTree = "<group>"; };
+		553CCC5EDADD913EE70DCFFA860882A8 /* SKMapViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapViewDelegate.h; path = SKMaps.framework/Headers/SKMapViewDelegate.h; sourceTree = "<group>"; };
+		57866FA87B292F59040249D2568C9F81 /* SKRouteAdvice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRouteAdvice.h; path = SKMaps.framework/Headers/SKRouteAdvice.h; sourceTree = "<group>"; };
+		57C7E3CA68A1F7DDB493BB18B26C59FE /* SKRoutingService+GPSFiles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKRoutingService+GPSFiles.h"; path = "SKMaps.framework/Headers/SKRoutingService+GPSFiles.h"; sourceTree = "<group>"; };
+		58E5A33F7297B1820BF91BAFE8352689 /* SKPositionsLoggingService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPositionsLoggingService.h; path = SKMaps.framework/Headers/SKPositionsLoggingService.h; sourceTree = "<group>"; };
+		590438E100C9263F81E9635164430960 /* NVHProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHProgress.m; path = Classes/NVHProgress.m; sourceTree = "<group>"; };
+		5CC349AD46E9F0B507E7BDB2D8A76C84 /* SKMapsService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapsService.h; path = SKMaps.framework/Headers/SKMapsService.h; sourceTree = "<group>"; };
+		5E1F18E5EC8839E6D05213B70EFEB98E /* SKMapPackage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapPackage.h; path = SKMaps.framework/Headers/SKMapPackage.h; sourceTree = "<group>"; };
+		63AC4FB040DCE031D637B17C5E29FDF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D5A21763BA77E4BA5626B08BFE7E02 /* SKViaPointState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKViaPointState.h; path = SKMaps.framework/Headers/SKViaPointState.h; sourceTree = "<group>"; };
+		63DA0138C27BDC85B4CA8F2EE92E9FB6 /* SKCameraSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKCameraSettings.h; path = SKMaps.framework/Headers/SKCameraSettings.h; sourceTree = "<group>"; };
+		669A490B9CF32D9E6F0FF0923D2BB49B /* SKProxySettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKProxySettings.h; path = SKMaps.framework/Headers/SKProxySettings.h; sourceTree = "<group>"; };
+		68043B0ED76C92F791C66363DEBEC1BF /* SKPOICluster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPOICluster.h; path = SKMaps.framework/Headers/SKPOICluster.h; sourceTree = "<group>"; };
+		6B2CC3C079961F2C3EA7C3039B988CA0 /* SKRouteSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRouteSettings.h; path = SKMaps.framework/Headers/SKRouteSettings.h; sourceTree = "<group>"; };
+		6B8ABF3CEC1205D279067CFD2746EA12 /* NVHTarGzip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVHTarGzip-dummy.m"; sourceTree = "<group>"; };
+		6BD42866DA11CAB66880FCCA671C8A6D /* SKAdvisorSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAdvisorSettings.h; path = SKMaps.framework/Headers/SKAdvisorSettings.h; sourceTree = "<group>"; };
+		6C7E2D642B259D81C0F09859C55AD1E8 /* SKNavigationSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKNavigationSettings.h; path = SKMaps.framework/Headers/SKNavigationSettings.h; sourceTree = "<group>"; };
+		6CC5F560635B31C4846DF4132330E0D3 /* NVHFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHFile.m; path = Classes/NVHFile.m; sourceTree = "<group>"; };
+		6CFCBFEE16D19D0415627012E73AB43F /* SKMapView+HeatMaps.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKMapView+HeatMaps.h"; path = "SKMaps.framework/Headers/SKMapView+HeatMaps.h"; sourceTree = "<group>"; };
+		6E6F8FF8B4EFFAC1EB0046CE6BDBA0E1 /* SKMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapView.h; path = SKMaps.framework/Headers/SKMapView.h; sourceTree = "<group>"; };
+		723F45B574D9A760FA9895926C3FFC63 /* SKMapScaleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapScaleView.h; path = SKMaps.framework/Headers/SKMapScaleView.h; sourceTree = "<group>"; };
 		75217DB8BD1E75BCAAD095F19DD4B3C5 /* Pods-SkrobblerTast-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkrobblerTast-acknowledgements.plist"; sourceTree = "<group>"; };
-		7ADB69E60C61C8882E693FBAD0B6B371 /* SKGPSFileElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKGPSFileElement.h; path = SKMaps.framework/Versions/A/Headers/SKGPSFileElement.h; sourceTree = "<group>"; };
-		7B869E222F7BED260652E22FFE3B50A4 /* SKDefinitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKDefinitions.h; path = SKMaps.framework/Versions/A/Headers/SKDefinitions.h; sourceTree = "<group>"; };
-		82A76A843DD64347E7E2EE237E728D15 /* SKMaps.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMaps.h; path = SKMaps.framework/Versions/A/Headers/SKMaps.h; sourceTree = "<group>"; };
-		83B00296A79DE399269C4FC548F5DFC5 /* SKRealReachSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRealReachSettings.h; path = SKMaps.framework/Versions/A/Headers/SKRealReachSettings.h; sourceTree = "<group>"; };
-		86AA18A5C63C6B1B21982C0915853307 /* SKMapInternationalizationSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapInternationalizationSettings.h; path = SKMaps.framework/Versions/A/Headers/SKMapInternationalizationSettings.h; sourceTree = "<group>"; };
+		760D30D11160CCE0E84A6D5AFDF8C38C /* SKPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPolygon.h; path = SKMaps.framework/Headers/SKPolygon.h; sourceTree = "<group>"; };
+		7E411B582757974D4F8C00A88D85DAE3 /* SKTrailSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKTrailSettings.h; path = SKMaps.framework/Headers/SKTrailSettings.h; sourceTree = "<group>"; };
+		832AC9256CC41B695B0DD95D688F86C1 /* SKGPSFileElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKGPSFileElement.h; path = SKMaps.framework/Headers/SKGPSFileElement.h; sourceTree = "<group>"; };
+		83845CBFA2773C335AA860F24BD5E585 /* SKMapView+GPSFiles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKMapView+GPSFiles.h"; path = "SKMaps.framework/Headers/SKMapView+GPSFiles.h"; sourceTree = "<group>"; };
+		87718B822215F215AA3C529A638F9D91 /* SKMultiStepSearchSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMultiStepSearchSettings.h; path = SKMaps.framework/Headers/SKMultiStepSearchSettings.h; sourceTree = "<group>"; };
 		881A1CB1DA04712728FA01CE3C1967C6 /* Pods-SkrobblerTast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SkrobblerTast-umbrella.h"; sourceTree = "<group>"; };
-		8E3673A4F8EE2F4699E3C0428C5086A4 /* SKMapViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapViewDelegate.h; path = SKMaps.framework/Versions/A/Headers/SKMapViewDelegate.h; sourceTree = "<group>"; };
-		8FF5945A31955B0E153A476319665177 /* SKRouteState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRouteState.h; path = SKMaps.framework/Versions/A/Headers/SKRouteState.h; sourceTree = "<group>"; };
-		932DFC1BA2836A69371385D5D52781C4 /* SKRouteAdvice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRouteAdvice.h; path = SKMaps.framework/Versions/A/Headers/SKRouteAdvice.h; sourceTree = "<group>"; };
-		9346C82A48A156B4440A8BA4E8C69D3F /* SKMapSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapSettings.h; path = SKMaps.framework/Versions/A/Headers/SKMapSettings.h; sourceTree = "<group>"; };
+		899CAD6644A6681BEFF77CCF813C7182 /* SKCalloutViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKCalloutViewDelegate.h; path = SKMaps.framework/Headers/SKCalloutViewDelegate.h; sourceTree = "<group>"; };
+		8E39AE2E183EA503BC63D1FFCC84B73C /* NSFileManager+NVHFileSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+NVHFileSize.h"; path = "Classes/NSFileManager+NVHFileSize.h"; sourceTree = "<group>"; };
+		913682C67F869C8A53C9BB689D061F65 /* SKAdvisorResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = SKAdvisorResources.bundle; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C419AFEE9CBBA25E221EE7A04B5B99C /* SKPOITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPOITracker.h; path = SKMaps.framework/Versions/A/Headers/SKPOITracker.h; sourceTree = "<group>"; };
-		A05F3D2A923929CD21992762BBB13D02 /* SKMapView+Style.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKMapView+Style.h"; path = "SKMaps.framework/Versions/A/Headers/SKMapView+Style.h"; sourceTree = "<group>"; };
-		A4A74AE074A1745931C3801D986085E1 /* SKNavigationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKNavigationDelegate.h; path = SKMaps.framework/Versions/A/Headers/SKNavigationDelegate.h; sourceTree = "<group>"; };
 		A6228BFE6781DD6B8FCC3D0F6F252DDE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A642F6573AE22BE28E73F3D43F94C1DF /* SKMapView+HeatMaps.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKMapView+HeatMaps.h"; path = "SKMaps.framework/Versions/A/Headers/SKMapView+HeatMaps.h"; sourceTree = "<group>"; };
+		A6AA064BC8B945CE2503B9C9139039A8 /* NVHTarGzip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVHTarGzip-prefix.pch"; sourceTree = "<group>"; };
 		A6C8A20A26B190BB782FB7CDD8768CAC /* Pods-SkrobblerTast-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkrobblerTast-resources.sh"; sourceTree = "<group>"; };
-		A89876FA5051AAFFE3BC9D83F2871C68 /* SKPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPolyline.h; path = SKMaps.framework/Versions/A/Headers/SKPolyline.h; sourceTree = "<group>"; };
-		A9434B4F206058412D6837DC7EF35BA0 /* SKCurrentPositionAnimationSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKCurrentPositionAnimationSettings.h; path = SKMaps.framework/Versions/A/Headers/SKCurrentPositionAnimationSettings.h; sourceTree = "<group>"; };
-		AD179509C11FB01E1323767737BF17CF /* SKPositionerServiceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPositionerServiceDelegate.h; path = SKMaps.framework/Versions/A/Headers/SKPositionerServiceDelegate.h; sourceTree = "<group>"; };
-		B0A5C95F8529557E5AE87DBE3CAB9E3F /* SKBoundingBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKBoundingBox.h; path = SKMaps.framework/Versions/A/Headers/SKBoundingBox.h; sourceTree = "<group>"; };
-		B0E33DDE5392E965D306DFFDDBD13C37 /* SKViaPointState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKViaPointState.h; path = SKMaps.framework/Versions/A/Headers/SKViaPointState.h; sourceTree = "<group>"; };
-		BAB24F5FA9630DBCABF01438537FD9D9 /* SKReverseGeocoderService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKReverseGeocoderService.h; path = SKMaps.framework/Versions/A/Headers/SKReverseGeocoderService.h; sourceTree = "<group>"; };
-		BE4EFB947D94AD4A9FB6CD40B25ED108 /* SKSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSearch.h; path = SKMaps.framework/Versions/A/Headers/SKSearch.h; sourceTree = "<group>"; };
-		C289240D399927BA54D99E43A80F7567 /* SKAdvisorResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = SKAdvisorResources.bundle; sourceTree = "<group>"; };
-		C415C07437C4DE33256C854E36AF433A /* SKSearchServiceDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSearchServiceDelegate.h; path = SKMaps.framework/Versions/A/Headers/SKSearchServiceDelegate.h; sourceTree = "<group>"; };
+		A7EDCA16314CEABE2F590AF136AD81AA /* SKNearbySearchSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKNearbySearchSettings.h; path = SKMaps.framework/Headers/SKNearbySearchSettings.h; sourceTree = "<group>"; };
+		A8DDBEE216BE8C6C0FA8E9688FB52F6B /* SKTilesCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKTilesCacheManager.h; path = SKMaps.framework/Headers/SKTilesCacheManager.h; sourceTree = "<group>"; };
+		A8FD753B53F668EB612C51C27AD22F9C /* NVHTarGzip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVHTarGzip-umbrella.h"; sourceTree = "<group>"; };
+		A9239ED287256116DD3790D2E3BFBAE1 /* SKSearchService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSearchService.h; path = SKMaps.framework/Headers/SKSearchService.h; sourceTree = "<group>"; };
+		A93DD0A8083FADC6E6846CD374A366DC /* SKOfflinePackagesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKOfflinePackagesManager.h; path = SKMaps.framework/Headers/SKOfflinePackagesManager.h; sourceTree = "<group>"; };
+		AB3C6698F9B331C52C4F0DEA030EB55E /* SKSearchResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSearchResult.h; path = SKMaps.framework/Headers/SKSearchResult.h; sourceTree = "<group>"; };
+		AB5319DEEF80120BEE551F876930B7EC /* SKPOITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPOITracker.h; path = SKMaps.framework/Headers/SKPOITracker.h; sourceTree = "<group>"; };
+		ABE31F9008BADE6988B43D29915749D5 /* SKMapsInitSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapsInitSettings.h; path = SKMaps.framework/Headers/SKMapsInitSettings.h; sourceTree = "<group>"; };
+		AC157ED425EDF9C892629EFE810066BB /* SKRouteInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRouteInformation.h; path = SKMaps.framework/Headers/SKRouteInformation.h; sourceTree = "<group>"; };
+		B08645F2F521F1D2EE1E34FD82E9F735 /* NVHTarFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHTarFile.m; path = Classes/NVHTarFile.m; sourceTree = "<group>"; };
+		B13E7026A795A1298B774F5EAFA2F5CF /* SKAnimationSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAnimationSettings.h; path = SKMaps.framework/Headers/SKAnimationSettings.h; sourceTree = "<group>"; };
+		B2D7878C025784AA55A6C443E2079BE9 /* SKGPSFilesService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKGPSFilesService.h; path = SKMaps.framework/Headers/SKGPSFilesService.h; sourceTree = "<group>"; };
+		B73E4F4E833FB3E73DE6034E790ECF07 /* NVHProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHProgress.h; path = Classes/NVHProgress.h; sourceTree = "<group>"; };
+		B76CBC01DEEAF08F2CCA61CCA455879D /* SKCalloutView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKCalloutView.h; path = SKMaps.framework/Headers/SKCalloutView.h; sourceTree = "<group>"; };
+		BC5D56A59BB66FA61E19249B5EBDE2FD /* SKSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSearch.h; path = SKMaps.framework/Headers/SKSearch.h; sourceTree = "<group>"; };
+		BD2493C0D224E328A33EA926D262B1C9 /* SKCurrentPositionAnimationSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKCurrentPositionAnimationSettings.h; path = SKMaps.framework/Headers/SKCurrentPositionAnimationSettings.h; sourceTree = "<group>"; };
+		C655882BEAAEA2B08C17F7FE3C70F44E /* SKOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKOverlay.h; path = SKMaps.framework/Headers/SKOverlay.h; sourceTree = "<group>"; };
+		C6764542B5D9D1BD2260A82D42EFEAEA /* SKReverseGeocoderService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKReverseGeocoderService.h; path = SKMaps.framework/Headers/SKReverseGeocoderService.h; sourceTree = "<group>"; };
+		CBF55014EC9E7F54668BD4B2BADDCAFE /* SKDetectedPOI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKDetectedPOI.h; path = SKMaps.framework/Headers/SKDetectedPOI.h; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D1B4A1457FDCD7E2A7509B85D916A09F /* SKMapsService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapsService.h; path = SKMaps.framework/Versions/A/Headers/SKMapsService.h; sourceTree = "<group>"; };
-		D73507B4402A0859A9E6392837141FDF /* SKRouteSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRouteSettings.h; path = SKMaps.framework/Versions/A/Headers/SKRouteSettings.h; sourceTree = "<group>"; };
-		D799C954CDB6E5B31AFC917DC5EAC85E /* SKViaPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKViaPoint.h; path = SKMaps.framework/Versions/A/Headers/SKViaPoint.h; sourceTree = "<group>"; };
-		D7F9C22139C56009EEB315C4083E5D20 /* SKAnimationSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAnimationSettings.h; path = SKMaps.framework/Versions/A/Headers/SKAnimationSettings.h; sourceTree = "<group>"; };
-		DA5CE5A9AE5DFBD3A40A59B4FF035A7F /* SKMapPackage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapPackage.h; path = SKMaps.framework/Versions/A/Headers/SKMapPackage.h; sourceTree = "<group>"; };
-		DA6EDA0C5C842A299802998243B749E0 /* SKOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKOverlay.h; path = SKMaps.framework/Versions/A/Headers/SKOverlay.h; sourceTree = "<group>"; };
-		DBFD22377606EC7E4789232170740DAE /* SKSearchResultParent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSearchResultParent.h; path = SKMaps.framework/Versions/A/Headers/SKSearchResultParent.h; sourceTree = "<group>"; };
-		E1E98087A159B457D75C1751190C9A18 /* SKCrossingDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKCrossingDescriptor.h; path = SKMaps.framework/Versions/A/Headers/SKCrossingDescriptor.h; sourceTree = "<group>"; };
-		E27EED187BE080A6BAE073989F8C6CC0 /* SKPositionsLoggingService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPositionsLoggingService.h; path = SKMaps.framework/Versions/A/Headers/SKPositionsLoggingService.h; sourceTree = "<group>"; };
-		E67B2CA69C924097DD845E2CDB9F38BE /* SKVisualAdviceConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKVisualAdviceConfiguration.h; path = SKMaps.framework/Versions/A/Headers/SKVisualAdviceConfiguration.h; sourceTree = "<group>"; };
-		E8B53B87FFD036EE32B289883A9DA758 /* SKMultiStepSearchSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMultiStepSearchSettings.h; path = SKMaps.framework/Versions/A/Headers/SKMultiStepSearchSettings.h; sourceTree = "<group>"; };
-		E957780B3B1D38587E1A0F1C7DC7578D /* SKNavigationSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKNavigationSettings.h; path = SKMaps.framework/Versions/A/Headers/SKNavigationSettings.h; sourceTree = "<group>"; };
-		EAF861D4F46DD1393A2AA6D47DBB9C8B /* SKMapsVersioningManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapsVersioningManager.h; path = SKMaps.framework/Versions/A/Headers/SKMapsVersioningManager.h; sourceTree = "<group>"; };
-		EB79986A547D660001E7F0D3E0B2D120 /* SKSearchService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKSearchService.h; path = SKMaps.framework/Versions/A/Headers/SKSearchService.h; sourceTree = "<group>"; };
-		F0223BCA73AC8F4AA674C94BC6F89B3D /* SKProxySettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKProxySettings.h; path = SKMaps.framework/Versions/A/Headers/SKProxySettings.h; sourceTree = "<group>"; };
-		F169EE00D476DB3DB330731F6CB1859F /* SKVersionInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKVersionInformation.h; path = SKMaps.framework/Versions/A/Headers/SKVersionInformation.h; sourceTree = "<group>"; };
-		F683B5DD28F2CCB49A0046377040DB6E /* SKMapsInitSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapsInitSettings.h; path = SKMaps.framework/Versions/A/Headers/SKMapsInitSettings.h; sourceTree = "<group>"; };
-		FB89685462581BBC70BCBC9FA733C561 /* SKMapView+GPSFiles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SKMapView+GPSFiles.h"; path = "SKMaps.framework/Versions/A/Headers/SKMapView+GPSFiles.h"; sourceTree = "<group>"; };
+		D0BFE9F79A166BA6A2DE904D27EC5905 /* NVHGzipFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHGzipFile.m; path = Classes/NVHGzipFile.m; sourceTree = "<group>"; };
+		D0C9F036F0DC799D3D8729A9CC58D751 /* NVHTarGzip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NVHTarGzip.m; path = Classes/NVHTarGzip.m; sourceTree = "<group>"; };
+		D2079385BC5E6E7C8464932841C9FCA0 /* SKBoundingBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKBoundingBox.h; path = SKMaps.framework/Headers/SKBoundingBox.h; sourceTree = "<group>"; };
+		D4DE82A7A20C0413E00783F9851BAAC9 /* SKMapPackageDownloadInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapPackageDownloadInfo.h; path = SKMaps.framework/Headers/SKMapPackageDownloadInfo.h; sourceTree = "<group>"; };
+		DF9A00027186A6207B3D2DC45FBBB6E7 /* SKRouteState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKRouteState.h; path = SKMaps.framework/Headers/SKRouteState.h; sourceTree = "<group>"; };
+		E121A7090CAE1E9B4D89862FCAF98875 /* SKVersionInformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKVersionInformation.h; path = SKMaps.framework/Headers/SKVersionInformation.h; sourceTree = "<group>"; };
+		EA4A7DB761984B2C55807475952933BA /* SKCrossingDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKCrossingDescriptor.h; path = SKMaps.framework/Headers/SKCrossingDescriptor.h; sourceTree = "<group>"; };
+		EB9A46DD224212A01F9FF95D34732CB6 /* SKMapsVersioningManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapsVersioningManager.h; path = SKMaps.framework/Headers/SKMapsVersioningManager.h; sourceTree = "<group>"; };
+		F03B1940885D2F07C8D6232B24CABE19 /* NVHTarFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHTarFile.h; path = Classes/NVHTarFile.h; sourceTree = "<group>"; };
+		F34CBE53E4886443A5341A598D6B5D75 /* NVHTarGzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHTarGzip.h; path = Classes/NVHTarGzip.h; sourceTree = "<group>"; };
+		F3C2D01C8DE99CA1001B2B54233D6612 /* SKPositionerService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKPositionerService.h; path = SKMaps.framework/Headers/SKPositionerService.h; sourceTree = "<group>"; };
+		F60C17CBFA590098A9155B162287C28F /* SKNavigationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKNavigationDelegate.h; path = SKMaps.framework/Headers/SKNavigationDelegate.h; sourceTree = "<group>"; };
+		F619EF335F5A928EDBA9B7334F482CB0 /* SKMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SKMaps.framework; sourceTree = "<group>"; };
+		F8E787BFED9CD0A2FFD8C42D4C37B942 /* NVHFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NVHFile.h; path = Classes/NVHFile.h; sourceTree = "<group>"; };
 		FDA42106113CF88E2ED33D3B03769A5A /* Pods-SkrobblerTast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkrobblerTast.release.xcconfig"; sourceTree = "<group>"; };
-		FDF739E38EFCC31BE0FB162E87910FA9 /* SKCameraSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKCameraSettings.h; path = SKMaps.framework/Versions/A/Headers/SKCameraSettings.h; sourceTree = "<group>"; };
-		FEB02DB6C1CFFFBB8F9AF3EDF7617FD6 /* SKMapVersioningDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKMapVersioningDelegate.h; path = SKMaps.framework/Versions/A/Headers/SKMapVersioningDelegate.h; sourceTree = "<group>"; };
-		FF4685039A311C4F7BB1C7FD4A9CF3EF /* SKCalloutViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKCalloutViewDelegate.h; path = SKMaps.framework/Versions/A/Headers/SKCalloutViewDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BB910AFB9EB0363D71D09B296273AB45 /* Frameworks */ = {
+		406078F4B964151C41844572C6704FE9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87BEE209DAEF4B1E66F04C031DE6EB50 /* Foundation.framework in Frameworks */,
+				2F32C132BA6CA539797BB71CA4BB7A6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E04294AA29CD3246491AB713E24A6563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF32D013B2C16227662A095A2876BE15 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D581893D5D9A604DB3D4D91A1876A99 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63AC4FB040DCE031D637B17C5E29FDF3 /* Info.plist */,
+				449424C11F570EFF76D25CD093A7B1D0 /* NVHTarGzip.modulemap */,
+				1025B614EEDA0C0766D7CA3B370A3F2B /* NVHTarGzip.xcconfig */,
+				6B8ABF3CEC1205D279067CFD2746EA12 /* NVHTarGzip-dummy.m */,
+				A6AA064BC8B945CE2503B9C9139039A8 /* NVHTarGzip-prefix.pch */,
+				A8FD753B53F668EB612C51C27AD22F9C /* NVHTarGzip-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NVHTarGzip";
+			sourceTree = "<group>";
+		};
+		147B2DD034213FFB64726C57D5037ACD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				913682C67F869C8A53C9BB689D061F65 /* SKAdvisorResources.bundle */,
+				288C672544241AC067A98498E09984B5 /* SKMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,10 +203,97 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5AD148EE48B4AAFDAEF1A8B839B26879 /* Pods */ = {
+		56C9621971722F8FE43C8DA4CBE706B4 /* ScoutMaps-iOS-SDK */ = {
 			isa = PBXGroup;
 			children = (
-				B00E79FE0A306F3EC99F6EE3E96522A4 /* ScoutMaps-iOS-SDK */,
+				6BD42866DA11CAB66880FCCA671C8A6D /* SKAdvisorSettings.h */,
+				498E8EDB80C59159162B1FD7D881EC16 /* SKAdvisorTTSSettings.h */,
+				B13E7026A795A1298B774F5EAFA2F5CF /* SKAnimationSettings.h */,
+				26F23578E6BE44C0710417177891DF35 /* SKAnnotation.h */,
+				3241E3A2ECB522891A80ABA8B0EB75EF /* SKAnnotationView.h */,
+				D2079385BC5E6E7C8464932841C9FCA0 /* SKBoundingBox.h */,
+				B76CBC01DEEAF08F2CCA61CCA455879D /* SKCalloutView.h */,
+				899CAD6644A6681BEFF77CCF813C7182 /* SKCalloutViewDelegate.h */,
+				63DA0138C27BDC85B4CA8F2EE92E9FB6 /* SKCameraSettings.h */,
+				47B08C30E2FA344096FE5FAE8CCCE5E5 /* SKCircle.h */,
+				27F279961962FDBF598E9E5CCFE41FED /* SKCoordinate.h */,
+				EA4A7DB761984B2C55807475952933BA /* SKCrossingDescriptor.h */,
+				BD2493C0D224E328A33EA926D262B1C9 /* SKCurrentPositionAnimationSettings.h */,
+				4BB890A7822DE4D813D115962C95FE1C /* SKDefinitions.h */,
+				CBF55014EC9E7F54668BD4B2BADDCAFE /* SKDetectedPOI.h */,
+				832AC9256CC41B695B0DD95D688F86C1 /* SKGPSFileElement.h */,
+				B2D7878C025784AA55A6C443E2079BE9 /* SKGPSFilesService.h */,
+				2649662C1FCD541332BA44BB3AC8BA7F /* SKMapCustomPOI.h */,
+				370AB09238F7E83061FA23F539D3B9F5 /* SKMapInternationalizationSettings.h */,
+				5E1F18E5EC8839E6D05213B70EFEB98E /* SKMapPackage.h */,
+				D4DE82A7A20C0413E00783F9851BAAC9 /* SKMapPackageDownloadInfo.h */,
+				007EB72B09601B88B36599A7FBC904C7 /* SKMapPOI.h */,
+				3E74004E472AAF30526C32778AFF8F03 /* SKMaps.h */,
+				723F45B574D9A760FA9895926C3FFC63 /* SKMapScaleView.h */,
+				17B0085A6CF1179CFE26BA95CB3146CE /* SKMapSettings.h */,
+				ABE31F9008BADE6988B43D29915749D5 /* SKMapsInitSettings.h */,
+				5CC349AD46E9F0B507E7BDB2D8A76C84 /* SKMapsService.h */,
+				EB9A46DD224212A01F9FF95D34732CB6 /* SKMapsVersioningManager.h */,
+				4A7E3E95B1C2AC1C9A3528BB76426518 /* SKMapVersioningDelegate.h */,
+				6E6F8FF8B4EFFAC1EB0046CE6BDBA0E1 /* SKMapView.h */,
+				83845CBFA2773C335AA860F24BD5E585 /* SKMapView+GPSFiles.h */,
+				6CFCBFEE16D19D0415627012E73AB43F /* SKMapView+HeatMaps.h */,
+				4670669E765AD8893DF7C69A46650871 /* SKMapView+Overlays.h */,
+				05EC3BDF81D774D8C61F30DD4381CEAA /* SKMapView+RealReach.h */,
+				448AA90344389CD2CE12DE1478384FFD /* SKMapView+Style.h */,
+				553CCC5EDADD913EE70DCFFA860882A8 /* SKMapViewDelegate.h */,
+				0DA671939909183A9C9CD5520ED1847B /* SKMapViewStyle.h */,
+				87718B822215F215AA3C529A638F9D91 /* SKMultiStepSearchSettings.h */,
+				F60C17CBFA590098A9155B162287C28F /* SKNavigationDelegate.h */,
+				6C7E2D642B259D81C0F09859C55AD1E8 /* SKNavigationSettings.h */,
+				A7EDCA16314CEABE2F590AF136AD81AA /* SKNearbySearchSettings.h */,
+				A93DD0A8083FADC6E6846CD374A366DC /* SKOfflinePackagesManager.h */,
+				2C508173B3645135E74FDF971AE2E13B /* SKOneLineSearchSettings.h */,
+				C655882BEAAEA2B08C17F7FE3C70F44E /* SKOverlay.h */,
+				68043B0ED76C92F791C66363DEBEC1BF /* SKPOICluster.h */,
+				AB5319DEEF80120BEE551F876930B7EC /* SKPOITracker.h */,
+				760D30D11160CCE0E84A6D5AFDF8C38C /* SKPolygon.h */,
+				257A7D1204213F98819837B64EFF959E /* SKPolyline.h */,
+				F3C2D01C8DE99CA1001B2B54233D6612 /* SKPositionerService.h */,
+				1EF67A07A634C32B79DEBF9BCAFF7C70 /* SKPositionerServiceDelegate.h */,
+				58E5A33F7297B1820BF91BAFE8352689 /* SKPositionsLoggingService.h */,
+				669A490B9CF32D9E6F0FF0923D2BB49B /* SKProxySettings.h */,
+				19E3594AFE3FC3755CE7117366B4906D /* SKRealReachSettings.h */,
+				C6764542B5D9D1BD2260A82D42EFEAEA /* SKReverseGeocoderService.h */,
+				57866FA87B292F59040249D2568C9F81 /* SKRouteAdvice.h */,
+				1AE4B83655E88A7C5219B66E1F769A26 /* SKRouteAlternativeSettings.h */,
+				AC157ED425EDF9C892629EFE810066BB /* SKRouteInformation.h */,
+				6B2CC3C079961F2C3EA7C3039B988CA0 /* SKRouteSettings.h */,
+				DF9A00027186A6207B3D2DC45FBBB6E7 /* SKRouteState.h */,
+				53E6BF55BBF644FD5A4C2E4CC93A4E54 /* SKRoutingDelegate.h */,
+				193256F7B0A60CDA37D1F2A2C4EB92D8 /* SKRoutingService.h */,
+				57C7E3CA68A1F7DDB493BB18B26C59FE /* SKRoutingService+GPSFiles.h */,
+				BC5D56A59BB66FA61E19249B5EBDE2FD /* SKSearch.h */,
+				AB3C6698F9B331C52C4F0DEA030EB55E /* SKSearchResult.h */,
+				4A3300126382C91AA54BB24B828E1A8A /* SKSearchResultParent.h */,
+				A9239ED287256116DD3790D2E3BFBAE1 /* SKSearchService.h */,
+				3E574EFE7C263AA157710DA8F5C70961 /* SKSearchServiceDelegate.h */,
+				A8DDBEE216BE8C6C0FA8E9688FB52F6B /* SKTilesCacheManager.h */,
+				375675A128D65D3EC70A254EABDB6B6F /* SKTrackablePOI.h */,
+				084C79E04AE04CADF96CB902508734AA /* SKTrackablePOIRule.h */,
+				7E411B582757974D4F8C00A88D85DAE3 /* SKTrailSettings.h */,
+				3D5996ACC4FA4998545E0ABAB6D38975 /* SKTTSPlayer.h */,
+				E121A7090CAE1E9B4D89862FCAF98875 /* SKVersionInformation.h */,
+				374DC6E3678129CB2B2F8CBD219DAA35 /* SKViaPoint.h */,
+				63D5A21763BA77E4BA5626B08BFE7E02 /* SKViaPointState.h */,
+				10A36E4A5A6970E37DCF3E203A551EB5 /* SKVisualAdviceConfiguration.h */,
+				166223A3219BA253E31DA1BAC813A2F7 /* SKZoomLevelConfiguration.h */,
+				A605FD24A65CE3FBC7242F3C39344242 /* Frameworks */,
+				147B2DD034213FFB64726C57D5037ACD /* Resources */,
+			);
+			path = "ScoutMaps-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		6892FBA866EEA6629E7E68682E65D2CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8A4DEFA35259168614A36A58FCA0AB6 /* NVHTarGzip */,
+				56C9621971722F8FE43C8DA4CBE706B4 /* ScoutMaps-iOS-SDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -139,19 +303,10 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				5AD148EE48B4AAFDAEF1A8B839B26879 /* Pods */,
-				BB5167B5E82475B362FA1862759B5590 /* Products */,
+				6892FBA866EEA6629E7E68682E65D2CB /* Pods */,
+				DB5E1DE8426B281D89C4CE8D90CF3133 /* Products */,
 				DA97E22413C745CAECD284A5490485A1 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7EE080641AE717CEED8035F895E8A837 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C289240D399927BA54D99E43A80F7567 /* SKAdvisorResources.bundle */,
-				73BD12B8BE3C4A60B3A81BF8D64A329B /* SKMaps.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		9CC6936625D8C20E5A4BC85A8E47C374 /* Pods-SkrobblerTast */ = {
@@ -172,96 +327,12 @@
 			path = "Target Support Files/Pods-SkrobblerTast";
 			sourceTree = "<group>";
 		};
-		B00E79FE0A306F3EC99F6EE3E96522A4 /* ScoutMaps-iOS-SDK */ = {
+		A605FD24A65CE3FBC7242F3C39344242 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7153AF63AF99955877E695C53143F1B3 /* SKAdvisorSettings.h */,
-				0D1022E0CC254DBB307EB5A7A608572B /* SKAdvisorTTSSettings.h */,
-				D7F9C22139C56009EEB315C4083E5D20 /* SKAnimationSettings.h */,
-				6E789F7CE66F035F1C2D0A57B529A0BE /* SKAnnotation.h */,
-				37CE2E3EADBC374C2E8CE741FD013752 /* SKAnnotationView.h */,
-				B0A5C95F8529557E5AE87DBE3CAB9E3F /* SKBoundingBox.h */,
-				30E9DE6CD81FD43C96BA34B446A72789 /* SKCalloutView.h */,
-				FF4685039A311C4F7BB1C7FD4A9CF3EF /* SKCalloutViewDelegate.h */,
-				FDF739E38EFCC31BE0FB162E87910FA9 /* SKCameraSettings.h */,
-				74885F58DE08720068D7EC003A897DEC /* SKCircle.h */,
-				4892597DC434A37B8F4DFCEA4C437551 /* SKCoordinate.h */,
-				E1E98087A159B457D75C1751190C9A18 /* SKCrossingDescriptor.h */,
-				A9434B4F206058412D6837DC7EF35BA0 /* SKCurrentPositionAnimationSettings.h */,
-				7B869E222F7BED260652E22FFE3B50A4 /* SKDefinitions.h */,
-				2C70B2C3F5E239737C027DCC488F548B /* SKDetectedPOI.h */,
-				7ADB69E60C61C8882E693FBAD0B6B371 /* SKGPSFileElement.h */,
-				61BDEC316C8F79141F0ED0A5D1A7337E /* SKGPSFilesService.h */,
-				07D925B762D87F530B436A03AADD5477 /* SKMapCustomPOI.h */,
-				86AA18A5C63C6B1B21982C0915853307 /* SKMapInternationalizationSettings.h */,
-				DA5CE5A9AE5DFBD3A40A59B4FF035A7F /* SKMapPackage.h */,
-				31B16DEC2D4434D1F0A9DD3029B8F291 /* SKMapPackageDownloadInfo.h */,
-				6556B6FF6F4747CAA4346DA9028C09EF /* SKMapPOI.h */,
-				82A76A843DD64347E7E2EE237E728D15 /* SKMaps.h */,
-				1358B04319044D5ABF2657FF8D6D8D11 /* SKMapScaleView.h */,
-				9346C82A48A156B4440A8BA4E8C69D3F /* SKMapSettings.h */,
-				F683B5DD28F2CCB49A0046377040DB6E /* SKMapsInitSettings.h */,
-				D1B4A1457FDCD7E2A7509B85D916A09F /* SKMapsService.h */,
-				EAF861D4F46DD1393A2AA6D47DBB9C8B /* SKMapsVersioningManager.h */,
-				FEB02DB6C1CFFFBB8F9AF3EDF7617FD6 /* SKMapVersioningDelegate.h */,
-				27A87FC2A166C3706C9BDC1EB30AEBCB /* SKMapView.h */,
-				FB89685462581BBC70BCBC9FA733C561 /* SKMapView+GPSFiles.h */,
-				A642F6573AE22BE28E73F3D43F94C1DF /* SKMapView+HeatMaps.h */,
-				0C864E2AB1FCFFF8689EA2A99482513B /* SKMapView+Overlays.h */,
-				6716D36236FC1682A08E5EB97ECE03B7 /* SKMapView+RealReach.h */,
-				A05F3D2A923929CD21992762BBB13D02 /* SKMapView+Style.h */,
-				8E3673A4F8EE2F4699E3C0428C5086A4 /* SKMapViewDelegate.h */,
-				4DC2E7C2E670927942CE646C596CFD4F /* SKMapViewStyle.h */,
-				E8B53B87FFD036EE32B289883A9DA758 /* SKMultiStepSearchSettings.h */,
-				A4A74AE074A1745931C3801D986085E1 /* SKNavigationDelegate.h */,
-				E957780B3B1D38587E1A0F1C7DC7578D /* SKNavigationSettings.h */,
-				5D537B133F240A9E5495D48869832861 /* SKNearbySearchSettings.h */,
-				0822EC87E268EC5B3BCEC4DC2B646925 /* SKOfflinePackagesManager.h */,
-				DA6EDA0C5C842A299802998243B749E0 /* SKOverlay.h */,
-				446DFB5B893575A91D6BC72F6190D87A /* SKPOICluster.h */,
-				9C419AFEE9CBBA25E221EE7A04B5B99C /* SKPOITracker.h */,
-				4E9EBF7D5939DAA9E6E7DD2D284665AF /* SKPolygon.h */,
-				A89876FA5051AAFFE3BC9D83F2871C68 /* SKPolyline.h */,
-				0CD8BEA8E18905E11ED4D213B42D0BC2 /* SKPositionerService.h */,
-				AD179509C11FB01E1323767737BF17CF /* SKPositionerServiceDelegate.h */,
-				E27EED187BE080A6BAE073989F8C6CC0 /* SKPositionsLoggingService.h */,
-				F0223BCA73AC8F4AA674C94BC6F89B3D /* SKProxySettings.h */,
-				83B00296A79DE399269C4FC548F5DFC5 /* SKRealReachSettings.h */,
-				BAB24F5FA9630DBCABF01438537FD9D9 /* SKReverseGeocoderService.h */,
-				932DFC1BA2836A69371385D5D52781C4 /* SKRouteAdvice.h */,
-				1756C0A92BA4536B6A58B388E4F3211C /* SKRouteAlternativeSettings.h */,
-				69705D40E50F2B16B9C3C28FBDBCF2DF /* SKRouteInformation.h */,
-				D73507B4402A0859A9E6392837141FDF /* SKRouteSettings.h */,
-				8FF5945A31955B0E153A476319665177 /* SKRouteState.h */,
-				1CE6C99FD7438473DA2E7A863AB845F4 /* SKRoutingDelegate.h */,
-				18661AB24633941D32D580751FD5D198 /* SKRoutingService.h */,
-				28FD31E3AB596AB941A9AE3C851EE732 /* SKRoutingService+GPSFiles.h */,
-				BE4EFB947D94AD4A9FB6CD40B25ED108 /* SKSearch.h */,
-				449FA70FB0B5C847247AF2ABC2CE7386 /* SKSearchResult.h */,
-				DBFD22377606EC7E4789232170740DAE /* SKSearchResultParent.h */,
-				EB79986A547D660001E7F0D3E0B2D120 /* SKSearchService.h */,
-				C415C07437C4DE33256C854E36AF433A /* SKSearchServiceDelegate.h */,
-				60BD382CFAE408A94523A3C4FF34D52C /* SKTilesCacheManager.h */,
-				63DAC313E292EEC9E1061935BB5A08F7 /* SKTrackablePOI.h */,
-				22F3EFBA0B146BD83D1051AC1077925F /* SKTrackablePOIRule.h */,
-				0F313443FC7BDFB2122BE90FF37A6E28 /* SKTrailSettings.h */,
-				0D634B4C084D9B753FCC3FFB21373AB9 /* SKTTSPlayer.h */,
-				F169EE00D476DB3DB330731F6CB1859F /* SKVersionInformation.h */,
-				D799C954CDB6E5B31AFC917DC5EAC85E /* SKViaPoint.h */,
-				B0E33DDE5392E965D306DFFDDBD13C37 /* SKViaPointState.h */,
-				E67B2CA69C924097DD845E2CDB9F38BE /* SKVisualAdviceConfiguration.h */,
-				44BF754E3608548B8166EB054B6BE856 /* SKZoomLevelConfiguration.h */,
-				7EE080641AE717CEED8035F895E8A837 /* Resources */,
+				F619EF335F5A928EDBA9B7334F482CB0 /* SKMaps.framework */,
 			);
-			path = "ScoutMaps-iOS-SDK";
-			sourceTree = "<group>";
-		};
-		BB5167B5E82475B362FA1862759B5590 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				25A6D39A0386593D237802EA1860DB6C /* Pods_SkrobblerTast.framework */,
-			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -280,35 +351,96 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		DB5E1DE8426B281D89C4CE8D90CF3133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				329544A7152A45ABD33B5FB066E56374 /* NVHTarGzip.framework */,
+				1F0DC8BE83AA48DA1B079A10D3A1B1DF /* Pods_SkrobblerTast.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8A4DEFA35259168614A36A58FCA0AB6 /* NVHTarGzip */ = {
+			isa = PBXGroup;
+			children = (
+				8E39AE2E183EA503BC63D1FFCC84B73C /* NSFileManager+NVHFileSize.h */,
+				47D1B409B57BE956792BE80D3CEA56C5 /* NSFileManager+NVHFileSize.m */,
+				F8E787BFED9CD0A2FFD8C42D4C37B942 /* NVHFile.h */,
+				6CC5F560635B31C4846DF4132330E0D3 /* NVHFile.m */,
+				2861BE31805A724DA8DCC27B56B8A2CA /* NVHGzipFile.h */,
+				D0BFE9F79A166BA6A2DE904D27EC5905 /* NVHGzipFile.m */,
+				B73E4F4E833FB3E73DE6034E790ECF07 /* NVHProgress.h */,
+				590438E100C9263F81E9635164430960 /* NVHProgress.m */,
+				F03B1940885D2F07C8D6232B24CABE19 /* NVHTarFile.h */,
+				B08645F2F521F1D2EE1E34FD82E9F735 /* NVHTarFile.m */,
+				F34CBE53E4886443A5341A598D6B5D75 /* NVHTarGzip.h */,
+				D0C9F036F0DC799D3D8729A9CC58D751 /* NVHTarGzip.m */,
+				0D581893D5D9A604DB3D4D91A1876A99 /* Support Files */,
+			);
+			path = NVHTarGzip;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		30FAB7295DB68847BF538DBFBA421E0F /* Headers */ = {
+		229316C879C82951CEF58A2B5EA3E018 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02FC12722D5D1398DA9967D09A84B590 /* Pods-SkrobblerTast-umbrella.h in Headers */,
+				EB95A8B262E12F652E2BEC198F0E18DE /* Pods-SkrobblerTast-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4AAE093758AE678E1823D7A73BDB79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337C25D2E692E7815C0DCA9DD8C499B9 /* NSFileManager+NVHFileSize.h in Headers */,
+				EFE10188E8E8AB1856649BD81558AD96 /* NVHFile.h in Headers */,
+				26392188358C150BF072D6014D33810C /* NVHGzipFile.h in Headers */,
+				72881B4BFAA31F868E87F43A2704EE72 /* NVHProgress.h in Headers */,
+				7C3FCFA293A19B136074846F94ABFB0E /* NVHTarFile.h in Headers */,
+				90056322AD4FFE0722175546471AC371 /* NVHTarGzip-umbrella.h in Headers */,
+				0036D34ABCD708AF31000D7538550239 /* NVHTarGzip.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		39E417DFF7C64706CA6F914146CA60D9 /* Pods-SkrobblerTast */ = {
+		445143C3CBBF1B97A9F3029ECB552BD3 /* Pods-SkrobblerTast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 005296006B71C20C8CD0DD13BD798362 /* Build configuration list for PBXNativeTarget "Pods-SkrobblerTast" */;
+			buildConfigurationList = F2E083D885F14F94C0236CF1998E6D4D /* Build configuration list for PBXNativeTarget "Pods-SkrobblerTast" */;
 			buildPhases = (
-				A7D2FFD1D02DBD9DE012CDE82156CEB5 /* Sources */,
-				BB910AFB9EB0363D71D09B296273AB45 /* Frameworks */,
-				30FAB7295DB68847BF538DBFBA421E0F /* Headers */,
+				D7E6197D450422C0E7F0919726310F0C /* Sources */,
+				406078F4B964151C41844572C6704FE9 /* Frameworks */,
+				229316C879C82951CEF58A2B5EA3E018 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFB25074A379B1BC4A5F3DB97FE1A379 /* PBXTargetDependency */,
+			);
+			name = "Pods-SkrobblerTast";
+			productName = "Pods-SkrobblerTast";
+			productReference = 1F0DC8BE83AA48DA1B079A10D3A1B1DF /* Pods_SkrobblerTast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B31A22BE4BF3DACCCCF7E6884525B120 /* NVHTarGzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D270601AF615216140D214894E3E24 /* Build configuration list for PBXNativeTarget "NVHTarGzip" */;
+			buildPhases = (
+				321E42DE894EF0FAD4D68E46CF83BF94 /* Sources */,
+				E04294AA29CD3246491AB713E24A6563 /* Frameworks */,
+				AE4AAE093758AE678E1823D7A73BDB79 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-SkrobblerTast";
-			productName = "Pods-SkrobblerTast";
-			productReference = 25A6D39A0386593D237802EA1860DB6C /* Pods_SkrobblerTast.framework */;
+			name = NVHTarGzip;
+			productName = NVHTarGzip;
+			productReference = 329544A7152A45ABD33B5FB066E56374 /* NVHTarGzip.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -328,25 +460,49 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BB5167B5E82475B362FA1862759B5590 /* Products */;
+			productRefGroup = DB5E1DE8426B281D89C4CE8D90CF3133 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				39E417DFF7C64706CA6F914146CA60D9 /* Pods-SkrobblerTast */,
+				B31A22BE4BF3DACCCCF7E6884525B120 /* NVHTarGzip */,
+				445143C3CBBF1B97A9F3029ECB552BD3 /* Pods-SkrobblerTast */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A7D2FFD1D02DBD9DE012CDE82156CEB5 /* Sources */ = {
+		321E42DE894EF0FAD4D68E46CF83BF94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38419ABC87F5A63D087FC2A25DA533B4 /* Pods-SkrobblerTast-dummy.m in Sources */,
+				D2DE98DDEC4D84FCD8770D92A61AFE97 /* NSFileManager+NVHFileSize.m in Sources */,
+				89F22E12BD984906570CD1F6D5797177 /* NVHFile.m in Sources */,
+				D28A43880707AA785441F5109623B41F /* NVHGzipFile.m in Sources */,
+				7B45090F27E15633D78CC8B4B6429DDE /* NVHProgress.m in Sources */,
+				0483F8C3598E23FC2480834340A8C2A3 /* NVHTarFile.m in Sources */,
+				2F905ED582EA1DDB3F78E650CF437533 /* NVHTarGzip-dummy.m in Sources */,
+				A078ED5457E7F1C523F01640FFAE6D77 /* NVHTarGzip.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E6197D450422C0E7F0919726310F0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F447A3836284AE3F5EED3ADD5297D231 /* Pods-SkrobblerTast-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFB25074A379B1BC4A5F3DB97FE1A379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NVHTarGzip;
+			target = B31A22BE4BF3DACCCCF7E6884525B120 /* NVHTarGzip */;
+			targetProxy = 511FBF6C92F24356125E084371CA1B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		034014829C1E4434983CF3A690C12017 /* Debug */ = {
@@ -391,7 +547,7 @@
 			};
 			name = Debug;
 		};
-		213BCBDD1EC78D6070789D5C47424602 /* Debug */ = {
+		67197F3878BD57F946E01A250121F261 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 448462AF42AF3886316F32DEAA602194 /* Pods-SkrobblerTast.debug.xcconfig */;
 			buildSettings = {
@@ -423,6 +579,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		8DACCDD7C2E12E92B5CD8CD9C11CA968 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1025B614EEDA0C0766D7CA3B370A3F2B /* NVHTarGzip.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NVHTarGzip/NVHTarGzip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVHTarGzip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NVHTarGzip/NVHTarGzip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NVHTarGzip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -462,7 +647,7 @@
 			};
 			name = Release;
 		};
-		C809A5DE4B11512A881DEEBABFB45334 /* Release */ = {
+		CD14915343C0E79FA29263CAB2BBC6FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FDA42106113CF88E2ED33D3B03769A5A /* Pods-SkrobblerTast.release.xcconfig */;
 			buildSettings = {
@@ -495,14 +680,43 @@
 			};
 			name = Release;
 		};
+		F8132F73F09A71E6FD32530D37AB5856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1025B614EEDA0C0766D7CA3B370A3F2B /* NVHTarGzip.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NVHTarGzip/NVHTarGzip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVHTarGzip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NVHTarGzip/NVHTarGzip.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NVHTarGzip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		005296006B71C20C8CD0DD13BD798362 /* Build configuration list for PBXNativeTarget "Pods-SkrobblerTast" */ = {
+		17D270601AF615216140D214894E3E24 /* Build configuration list for PBXNativeTarget "NVHTarGzip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				213BCBDD1EC78D6070789D5C47424602 /* Debug */,
-				C809A5DE4B11512A881DEEBABFB45334 /* Release */,
+				F8132F73F09A71E6FD32530D37AB5856 /* Debug */,
+				8DACCDD7C2E12E92B5CD8CD9C11CA968 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -512,6 +726,15 @@
 			buildConfigurations = (
 				034014829C1E4434983CF3A690C12017 /* Debug */,
 				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E083D885F14F94C0236CF1998E6D4D /* Build configuration list for PBXNativeTarget "Pods-SkrobblerTast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67197F3878BD57F946E01A250121F261 /* Debug */,
+				CD14915343C0E79FA29263CAB2BBC6FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

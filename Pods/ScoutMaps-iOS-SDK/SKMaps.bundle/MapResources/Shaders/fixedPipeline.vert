@@ -2,8 +2,7 @@
 //  fixedPipeline.vert
 //  @brief Vertex shader used to provide backwards compatibility to ES1(i.e. the fixed pipeline).
 //
-//  Created by Alin Loghin on 10/02/13.
-//  Copyright (c) 2013 Skobbler. All rights reserved.
+//  Copyright (c) 2016 Skobbler. All rights reserved.
 //
 attribute highp vec4 a_position;
 attribute lowp vec4 a_texCoord;

@@ -82,3 +82,12 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/NVHTarGzip/NVHTarGzip.framework"
+  install_framework "${PODS_ROOT}/ScoutMaps-iOS-SDK/SKMaps.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/NVHTarGzip/NVHTarGzip.framework"
+  install_framework "${PODS_ROOT}/ScoutMaps-iOS-SDK/SKMaps.framework"
+fi

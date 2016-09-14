@@ -421,6 +421,7 @@
 			{
 				"fill" : 
 				{
+					"3dfactor" : 1.20,
 					"width" : 2.20
 				}
 			}
@@ -433,6 +434,7 @@
 			{
 				"fill" : 
 				{
+					"3dfactor" : 1.20,
 					"width" : 2.80
 				}
 			}
@@ -445,6 +447,7 @@
 			{
 				"fill" : 
 				{
+					"3dfactor" : 1.20,
 					"width" : 6.0
 				}
 			}
@@ -457,6 +460,7 @@
 			{
 				"fill" : 
 				{
+					"3dfactor" : 1.20,
 					"width" : 7.0
 				}
 			}
@@ -469,6 +473,7 @@
 			{
 				"fill" : 
 				{
+					"3dfactor" : 1.20,
 					"width" : 13.0
 				}
 			}
@@ -481,6 +486,7 @@
 			{
 				"fill" : 
 				{
+					"3dfactor" : 1.20,
 					"width" : 23.0
 				}
 			}
@@ -493,6 +499,7 @@
 			{
 				"fill" : 
 				{
+					"3dfactor" : 1.20,
 					"width" : 29.0
 				}
 			},
@@ -1757,38 +1764,14 @@
 		},
 		
 		{
-			"id" : "40.5",
-			"isattribute" : true,
-			"line" : 
-			{
-				"fill" : 
-				{
-					"color" : "000000",
-					"width" : 0.30
-				}
-			}
-		},
-		
-		{
-			"id" : "40.8",
-			"isattribute" : true,
-			"line" : 
-			{
-				"fill" : 
-				{
-					"width" : 0.40
-				}
-			}
-		},
-		
-		{
 			"id" : "40.11",
 			"isattribute" : true,
 			"line" : 
 			{
 				"fill" : 
 				{
-					"width" : 0.60
+					"color" : "000000",
+					"width" : 1.5
 				}
 			}
 		},
@@ -1800,7 +1783,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 0.80
+					"width" : 1.7
 				}
 			}
 		},
@@ -1812,7 +1795,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 1.0
+					"width" : 2.0
 				}
 			}
 		},
@@ -1824,7 +1807,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 1.20
+					"width" : 2.2
 				}
 			}
 		},
@@ -1836,7 +1819,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 1.60
+					"width" : 2.7
 				}
 			}
 		},
@@ -1848,7 +1831,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 3.20
+					"width" : 3.2
 				}
 			}
 		},
@@ -1860,7 +1843,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 4.80
+					"width" : 4.8
 				}
 			}
 		},
@@ -1872,37 +1855,12 @@
 			{
 				"fill" : 
 				{
-					"width" : 6.40
+					"width" : 6.4
 				}
 			},
-			"type" : "traffic1"
+			"type" : "blocked"
 		},
-		
-		{
-			"id" : "41.5",
-			"isattribute" : true,
-			"line" : 
-			{
-				"fill" : 
-				{
-					"color" : "C50000",
-					"width" : 0.30
-				}
-			}
-		},
-		
-		{
-			"id" : "41.8",
-			"isattribute" : true,
-			"line" : 
-			{
-				"fill" : 
-				{
-					"width" : 0.40
-				}
-			}
-		},
-		
+				
 		{
 			"id" : "41.11",
 			"isattribute" : true,
@@ -1910,7 +1868,8 @@
 			{
 				"fill" : 
 				{
-					"width" : 0.60
+					"color" : "C50000",
+					"width" : 1.5
 				}
 			}
 		},
@@ -1922,7 +1881,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 0.80
+					"width" : 1.7
 				}
 			}
 		},
@@ -1934,7 +1893,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 1.0
+					"width" : 2.0
 				}
 			}
 		},
@@ -1946,7 +1905,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 1.20
+					"width" : 2.2
 				}
 			}
 		},
@@ -1958,7 +1917,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 1.60
+					"width" : 2.7
 				}
 			}
 		},
@@ -1970,7 +1929,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 3.20
+					"width" : 3.2
 				}
 			}
 		},
@@ -1982,7 +1941,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 4.80
+					"width" : 4.8
 				}
 			}
 		},
@@ -1994,37 +1953,12 @@
 			{
 				"fill" : 
 				{
-					"width" : 6.40
+					"width" : 6.4
 				}
 			},
-			"type" : "traffic2"
+			"type" : "major"
 		},
-		
-		{
-			"id" : "42.5",
-			"isattribute" : true,
-			"line" : 
-			{
-				"fill" : 
-				{
-					"color" : "F03402",
-					"width" : 0.30
-				}
-			}
-		},
-		
-		{
-			"id" : "42.8",
-			"isattribute" : true,
-			"line" : 
-			{
-				"fill" : 
-				{
-					"width" : 0.40
-				}
-			}
-		},
-		
+				
 		{
 			"id" : "42.11",
 			"isattribute" : true,
@@ -2032,7 +1966,8 @@
 			{
 				"fill" : 
 				{
-					"width" : 0.60
+					"color" : "F03402",
+					"width" : 1.5
 				}
 			}
 		},
@@ -2044,7 +1979,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 0.80
+					"width" : 1.7
 				}
 			}
 		},
@@ -2056,7 +1991,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 1.0
+					"width" : 2.0
 				}
 			}
 		},
@@ -2068,7 +2003,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 1.20
+					"width" : 2.2
 				}
 			}
 		},
@@ -2080,7 +2015,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 1.60
+					"width" : 2.7
 				}
 			}
 		},
@@ -2092,7 +2027,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 3.20
+					"width" : 3.2
 				}
 			}
 		},
@@ -2104,7 +2039,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 4.80
+					"width" : 4.8
 				}
 			}
 		},
@@ -2116,10 +2051,10 @@
 			{
 				"fill" : 
 				{
-					"width" : 6.40
+					"width" : 6.4
 				}
 			},
-			"type" : "traffic3"
+			"type" : "moderate"
 		},
 		
 		{
@@ -2153,38 +2088,14 @@
 		},
 		
 		{
-			"id" : "43.5",
-			"isattribute" : true,
-			"line" : 
-			{
-				"fill" : 
-				{
-					"color" : "FA7600",
-					"width" : 0.30
-				}
-			}
-		},
-		
-		{
-			"id" : "43.8",
-			"isattribute" : true,
-			"line" : 
-			{
-				"fill" : 
-				{
-					"width" : 0.40
-				}
-			}
-		},
-		
-		{
 			"id" : "43.11",
 			"isattribute" : true,
 			"line" : 
 			{
 				"fill" : 
 				{
-					"width" : 0.60
+					"color" : "FA7600",
+					"width" : 1.5
 				}
 			}
 		},
@@ -2196,7 +2107,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 0.80
+					"width" : 1.7
 				}
 			}
 		},
@@ -2208,7 +2119,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 1.0
+					"width" : 2.0
 				}
 			}
 		},
@@ -2220,7 +2131,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 1.20
+					"width" : 2.2
 				}
 			}
 		},
@@ -2232,7 +2143,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 1.60
+					"width" : 2.7
 				}
 			}
 		},
@@ -2244,7 +2155,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 3.20
+					"width" : 3.2
 				}
 			}
 		},
@@ -2256,7 +2167,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 4.80
+					"width" : 4.8
 				}
 			}
 		},
@@ -2268,49 +2179,12 @@
 			{
 				"fill" : 
 				{
-					"width" : 6.40
+					"width" : 6.4
 				}
 			},
-			"type" : "traffic4"
+			"type" : "minor"
 		},
-		
-		{
-			"id" : "44.5",
-			"isattribute" : true,
-			"line" : 
-			{
-				"fill" : 
-				{
-					"color" : "009B00",
-					"width" : 0.30
-				}
-			}
-		},
-		
-		{
-			"id" : "44.8",
-			"isattribute" : true,
-			"line" : 
-			{
-				"fill" : 
-				{
-					"width" : 0.40
-				}
-			}
-		},
-		
-		{
-			"id" : "44.10",
-			"isattribute" : true,
-			"line" : 
-			{
-				"fill" : 
-				{
-					"width" : 0.50
-				}
-			}
-		},
-		
+     
 		{
 			"id" : "44.11",
 			"isattribute" : true,
@@ -2318,7 +2192,8 @@
 			{
 				"fill" : 
 				{
-					"width" : 0.60
+                    "color" : "009B00",
+					"width" : 1.5
 				}
 			}
 		},
@@ -2330,7 +2205,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 0.80
+					"width" : 1.7
 				}
 			}
 		},
@@ -2342,7 +2217,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 1.0
+					"width" : 2.0
 				}
 			}
 		},
@@ -2354,7 +2229,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 1.20
+					"width" : 2.2
 				}
 			}
 		},
@@ -2366,7 +2241,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 1.60
+					"width" : 2.7
 				}
 			}
 		},
@@ -2378,7 +2253,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 3.20
+					"width" : 3.2
 				}
 			}
 		},
@@ -2390,7 +2265,7 @@
 			{
 				"fill" : 
 				{
-					"width" : 4.80
+					"width" : 4.8
 				}
 			}
 		},
@@ -2402,10 +2277,10 @@
 			{
 				"fill" : 
 				{
-					"width" : 6.40
+					"width" : 6.4
 				}
 			},
-			"type" : "traffic5"
+			"type" : "none"
 		}
 	],
 	"badges" : 
@@ -2465,9 +2340,12 @@
         "customearclustertextcolor" : "00000066",
 		"customearclustertextoutlinecolor" : "00000000",
         
-        "custompinclustertextcolor" : "ffffff",
-		"custompinclustertextoutlinecolor" : "0000001a",
-        
+        "custompinclustertextcolor" : "00000066",
+		"custompinclustertextoutlinecolor" : "00000000",
+
+        "customiconcolor" : "00000066",
+        "customiconoutlinecolor" : "00000000",
+
 		"earclustertextcolor" : "00000099",
         "earclustertextoutlinecolor" : "ffffff1a",
         
@@ -18593,6 +18471,14 @@
 					"texturelocation" : [ 7, 11 ],
 					"texturename" : "taxi",
 					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
+				},
+             
+                {
+					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
+					"textureid" : 1256,
+					"texturelocation" : [ 15, 15 ],
+					"texturename" : "taxi",
+					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
 				}
 			]
 		},
@@ -20246,6 +20132,8 @@
                     "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
                     "texturecentery" : [ 16, 21, 24, 32, 64, 85 ],
 					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 16, 21, 24, 32, 64, 85 ],
 					"textureid" : 29,
 					"texturelinear" : true,
 					"texturelocation" : [ 0, 1 ],
@@ -20254,9 +20142,12 @@
 				},
 				
 				{
+                    "iconcolorincustomicon" : "0080ffff",
                     "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
                     "texturecentery" : [ 16, 21, 24, 32, 64, 85 ],
 					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 16, 21, 24, 32, 64, 85 ],
 					"textureid" : 30,
 					"texturelinear" : true,
 					"texturelocation" : [ 0, 2 ],
@@ -20268,6 +20159,8 @@
                     "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
                     "texturecentery" : [ 16, 21, 24, 32, 64, 85 ],
 					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 16, 21, 24, 32, 64, 85 ],
 					"textureid" : 31,
 					"texturelinear" : true,
 					"texturelocation" : [ 2, 0 ],
@@ -20276,7 +20169,290 @@
 				}
 			]
 		},
-		
+
+		{
+			"class" : "custom",
+			"colortype" : "rgba",
+			"columns" : 8,
+			"filename" : 
+			[
+				"traffic.png",
+				"traffic@2x.png",
+				"traffic@2x.png",
+				"traffic@2x.png",
+				"traffic@3x.png",
+				"traffic@3x.png"
+			],
+			"rows" : 8,
+			"textureatlas" : 
+			[
+				{
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 128,
+					"texturelinear" : true,
+					"texturelocation" : [ 0, 0 ],
+					"texturename" : "red3d",
+                    "texturetype" : "traffic",
+                    "resizeanimationfactor" : 1.33,
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+				},
+				
+				{
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 129,
+					"texturelinear" : true,
+					"texturelocation" : [ 1, 0 ],
+					"texturename" : "red",
+                    "texturetype" : "traffic",
+                    "resizeanimationfactor" : 1.33,
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+				},
+				
+				{
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 130,
+					"texturelinear" : true,
+					"texturelocation" : [ 2, 0 ],
+					"texturename" : "red3d_big",
+                    "texturetype" : "traffic",
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+				},
+             
+				{
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 131,
+					"texturelinear" : true,
+					"texturelocation" : [ 3, 0 ],
+					"texturename" : "red_big",
+                    "texturetype" : "traffic",
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+				},
+             
+				{
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 132,
+					"texturelinear" : true,
+					"texturelocation" : [ 0, 1 ],
+					"texturename" : "orange3d",
+                    "resizeanimationfactor" : 1.33,
+                    "texturetype" : "traffic",
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+				},
+             
+				{
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 133,
+					"texturelinear" : true,
+					"texturelocation" : [ 1, 1 ],
+					"texturename" : "orange",
+                    "texturetype" : "traffic",
+                    "resizeanimationfactor" : 1.33,
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+				},
+             
+				{
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 134,
+					"texturelinear" : true,
+					"texturelocation" : [ 2, 1 ],
+					"texturename" : "orange3d_big",
+                    "texturetype" : "traffic",
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+				},
+             
+				{
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 135,
+					"texturelinear" : true,
+					"texturelocation" : [ 3, 1 ],
+					"texturename" : "orange_big",
+                    "texturetype" : "traffic",
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+				},
+             
+				{
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 136,
+					"texturelinear" : true,
+					"texturelocation" : [ 0, 2 ],
+					"texturename" : "blue3d",
+                    "texturetype" : "traffic",
+                    "resizeanimationfactor" : 1.33,
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+				},
+             
+				{
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 137,
+					"texturelinear" : true,
+					"texturelocation" : [ 1, 2 ],
+					"texturename" : "blue",
+                    "texturetype" : "traffic",
+                    "resizeanimationfactor" : 1.33,
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+				},
+             
+                {
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 138,
+					"texturelinear" : true,
+					"texturelocation" : [ 2, 2 ],
+					"texturename" : "blue3d_big",
+                    "texturetype" : "traffic",
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+				},
+             
+				{
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 139,
+					"texturelinear" : true,
+					"texturelocation" : [ 3, 2 ],
+					"texturename" : "blue_big",
+                    "texturetype" : "traffic",
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+				},
+
+                {
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 140,
+					"texturelinear" : true,
+					"texturelocation" : [ 0, 3 ],
+					"texturename" : "blocked3d",
+                    "texturetype" : "traffic",
+                    "resizeanimationfactor" : 1.33,
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+				},
+             
+				{
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 141,
+					"texturelinear" : true,
+					"texturelocation" : [ 1, 3 ],
+					"texturename" : "blocked",
+                    "texturetype" : "traffic",
+                    "resizeanimationfactor" : 1,
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+				},
+
+                {
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 142,
+					"texturelinear" : true,
+					"texturelocation" : [ 2, 3 ],
+					"texturename" : "blocked3d_big",
+                    "texturetype" : "traffic",
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+                },
+             
+				{
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 143,
+					"texturelinear" : true,
+					"texturelocation" : [ 3, 3 ],
+					"texturename" : "blocked_big",
+                    "texturetype" : "traffic",
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ]
+				},
+
+                {
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 144,
+					"texturelinear" : true,
+					"texturelocation" : [ 0, 4 ],
+					"texturename" : "cluster3d",
+                    "texturetype" : "traffic",
+                    "resizeanimationfactor" : 1.33,
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ],
+                    "textureclusterposx" : 0.0,
+                    "textureclusterposy" : 0.0
+				},
+             
+				{
+                    "texturecenterx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "texturecentery" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureheight" : [ 64, 128, 128, 128, 256, 256 ],
+                    "iconcenterincustomiconx" : [ 32, 64, 64, 64, 128, 128 ],
+                    "iconcenterincustomicony" : [ 32, 64, 64, 64, 128, 128 ],
+					"textureid" : 145,
+					"texturelinear" : true,
+					"texturelocation" : [ 2, 4 ],
+					"texturename" : "cluster3d_big",
+                    "texturetype" : "traffic",
+					"texturewidth" : [ 64, 128, 128, 128, 256, 256 ],
+                    "textureclusterposx" : 0.0,
+                    "textureclusterposy" : 0.0
+				}
+             ]
+		},
+     
 		{
 			"class" : "custom",
 			"colortype" : "rgba",
@@ -20414,6 +20590,8 @@
                     "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
                     "texturecentery" : [ 16, 21, 24, 32, 64, 85 ],
 					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 16, 21, 24, 32, 64, 85 ],
 					"textureid" : 40,
 					"texturelinear" : true,
 					"texturelocation" : [ 0, 0 ],
@@ -20422,9 +20600,14 @@
 				},
 				
 				{
+                    "iconcolorincustomicon" : "0080ffff",
+                    "clusternrtextcolor" : "0080ffff",
+                    "clusternrtextoutlinecolor" : "0080ff55",
                     "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
                     "texturecentery" : [ 16, 21, 24, 32, 64, 85 ],
 					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 16, 21, 24, 32, 64, 85 ],
 					"textureid" : 41,
 					"texturelinear" : true,
 					"texturelocation" : [ 1, 2 ],
@@ -20433,9 +20616,13 @@
 				},
 				
 				{
+                    "textureclusterposx" : 9.0,
+                    "textureclusterposy" : 9.0,
                     "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
                     "texturecentery" : [ 16, 21, 24, 32, 64, 85 ],
 					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 16, 21, 24, 32, 64, 85 ],
 					"textureid" : 42,
 					"texturelinear" : true,
 					"texturelocation" : [ 1, 1 ],
@@ -20447,6 +20634,8 @@
                     "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
                     "texturecentery" : [ 16, 21, 24, 32, 64, 85 ],
 					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 16, 21, 24, 32, 64, 85 ],
 					"textureid" : 43,
 					"texturelinear" : true,
 					"texturelocation" : [ 1, 0 ],
@@ -20906,8 +21095,10 @@
 			[
 				
 				{
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 13, 18, 21, 29, 55, 83 ],
                     "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
-                    "texturecentery" : [ 16, 21, 24, 32, 110, 146 ],
+                    "texturecentery" : [ 26, 36, 42, 56, 110, 146 ],
 					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
 					"textureid" : 83,
 					"texturelinear" : true,
@@ -20917,8 +21108,12 @@
 				},
 				
 				{
+                    "textureclusterposx" : 9.0,
+                    "textureclusterposy" : 9.0,
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 13, 18, 21, 29, 55, 83 ],
                     "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
-                    "texturecentery" : [ 32, 42, 48, 64, 64, 170 ],
+                    "texturecentery" : [ 26, 36, 42, 58, 110, 146 ],
 					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
 					"textureid" : 84,
 					"texturelinear" : true,
@@ -20928,8 +21123,10 @@
 				},
 				
 				{
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 13, 18, 21, 29, 55, 83 ],
                     "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
-                    "texturecentery" : [ 32, 42, 48, 64, 64, 170 ],
+                    "texturecentery" : [ 26, 36, 42, 58, 110, 146 ],
 					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
 					"textureid" : 85,
 					"texturelinear" : true,
@@ -20939,8 +21136,12 @@
 				},
 				
 				{
+                    "textureclusterposx" : 9.0,
+                    "textureclusterposy" : 9.0,
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 13, 18, 21, 29, 55, 83 ],
                     "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
-                    "texturecentery" : [ 16, 21, 24, 32, 110, 146 ],
+                    "texturecentery" : [ 26, 36, 42, 58, 110, 146 ],
 					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
 					"textureid" : 86,
 					"texturelinear" : true,
@@ -20948,10 +21149,100 @@
 					"texturename" : "tripadvisor_pin_cluster",
 					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
 				},
+             
+				{
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 13, 18, 21, 29, 55, 83 ],
+                    "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "texturecentery" : [ 26, 36, 42, 58, 110, 146 ],
+                    "textureheight" : [ 32, 42, 48, 64, 128, 170 ],
+					"textureid" : 124,
+					"texturelinear" : true,
+					"texturelocation" : [ 4, 6 ],
+					"texturename" : "yelp_pin",
+					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
+				},
 				
 				{
+                    "textureclusterposx" : 9.0,
+                    "textureclusterposy" : 9.0,
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 13, 18, 21, 29, 55, 83 ],
                     "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
-                    "texturecentery" : [ 32, 42, 48, 64, 64, 170 ],
+                    "texturecentery" : [ 26, 36, 42, 58, 110, 146 ],
+					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
+					"textureid" : 125,
+					"texturelinear" : true,
+					"texturelocation" : [ 4, 7 ],
+					"texturename" : "yelp_pin_cluster",
+					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
+				},
+             
+				{
+                    "iconcolorincustomicon" : "676767ff",
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 13, 18, 21, 29, 55, 83 ],
+                    "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "texturecentery" : [ 26, 36, 42, 58, 110, 146 ],
+					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
+					"textureid" : 126,
+					"texturelinear" : true,
+					"texturelocation" : [ 1, 6 ],
+					"texturename" : "unselected_pin",
+					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
+				},
+
+                {
+                    "textureclusterposx" : 9.0,
+                    "textureclusterposy" : 9.0,
+                    "iconcolorincustomicon" : "676767ff",
+                    "clusternrtextcolor" : "676767ff",
+                    "clusternrtextoutlinecolor" : "676767ff",
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 13, 18, 21, 29, 55, 83 ],
+                    "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "texturecentery" : [ 26, 36, 42, 58, 110, 146 ],
+					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
+					"textureid" : 127,
+					"texturelinear" : true,
+					"texturelocation" : [ 1, 7 ],
+					"texturename" : "unselected_pin_cluster",
+					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
+				},
+
+                {
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 13, 18, 21, 29, 55, 83 ],
+                    "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "texturecentery" : [ 26, 36, 42, 58, 110, 146 ],
+					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
+					"textureid" : 146,
+					"texturelinear" : true,
+					"texturelocation" : [ 0, 6 ],
+					"texturename" : "generic_pin",
+					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
+				},
+
+                {
+                    "textureclusterposx" : 9.0,
+                    "textureclusterposy" : 9.0,
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 13, 18, 21, 29, 55, 83 ],
+                    "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "texturecentery" : [ 26, 36, 42, 58, 110, 146 ],
+					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
+					"textureid" : 147,
+					"texturelinear" : true,
+					"texturelocation" : [ 0, 7 ],
+					"texturename" : "generic_pin_cluster",
+					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
+				},
+
+				{
+                    "iconcenterincustomiconx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "iconcenterincustomicony" : [ 13, 18, 21, 29, 55, 83 ],
+                    "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
+                    "texturecentery" : [ 26, 36, 42, 58, 110, 146 ],
 					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
 					"textureid" : 87,
 					"texturelinear" : true,
@@ -21127,120 +21418,7 @@
 					"texturelocation" : [ 2, 7 ],
 					"texturename" : "foursquare_cluster",
 					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
-				},
-				
-				{
-                    "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
-                    "texturecentery" : [ 16, 21, 24, 32, 64, 85 ],
-					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
-					"textureid" : 105,
-					"texturelinear" : true,
-					"texturelocation" : [ 5, 0 ],
-					"texturename" : "red",
-					"texturetype" : "traffic",
-					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
-				},
-				
-				{
-                    "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
-                    "texturecentery" : [ 16, 21, 24, 32, 64, 85 ],
-					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
-					"textureid" : 106,
-					"texturelinear" : true,
-					"texturelocation" : [ 5, 1 ],
-					"texturename" : "orange",
-					"texturetype" : "traffic",
-					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
-				},
-				
-				{
-                    "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
-                    "texturecentery" : [ 16, 21, 24, 32, 64, 85 ],
-					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
-					"textureid" : 107,
-					"texturelinear" : true,
-					"texturelocation" : [ 5, 2 ],
-					"texturename" : "blue",
-					"texturetype" : "traffic",
-					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
-				},
-				
-				{
-                    "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
-                    "texturecentery" : [ 16, 21, 24, 32, 64, 85 ],
-					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
-					"textureid" : 108,
-					"texturelinear" : true,
-					"texturelocation" : [ 5, 3 ],
-					"texturename" : "blocked",
-					"texturetype" : "traffic",
-					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
-				},
-				
-				{
-                    "texturecenterx" : [ 16, 21, 24, 32, 64, 133 ],
-                    "texturecentery" : [ 32, 42, 48, 64, 100, 170 ],
-					"textureclustercentery" : 20,
-					"textureclusterdigitspace" : 10,
-					"textureclusterextposx" : 0.0,
-					"textureclusterposx" : 0.0,
-					"textureclusterposy" : 0.0,
-					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
-					"textureid" : 109,
-					"texturelinear" : true,
-					"texturelocation" : [ 5, 4 ],
-					"texturename" : "cluster",
-					"texturetype" : "traffic",
-					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
-				},
-				
-				{
-                    "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
-                    "texturecentery" : [ 16, 21, 24, 32, 64, 85 ],
-					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
-					"textureid" : 110,
-					"texturelinear" : true,
-					"texturelocation" : [ 6, 0 ],
-					"texturename" : "red3d",
-                    "texturetype" : "traffic",
-					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
-				},
-				
-				{
-                    "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
-                    "texturecentery" : [ 16, 21, 24, 32, 64, 85 ],
-					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
-					"textureid" : 111,
-					"texturelinear" : true,
-					"texturelocation" : [ 6, 1 ],
-					"texturename" : "orange3d",
-                    "texturetype" : "traffic",
-					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
-				},
-				
-				{
-                    "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
-                    "texturecentery" : [ 16, 21, 24, 32, 64, 85 ],
-					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
-					"textureid" : 112,
-					"texturelinear" : true,
-					"texturelocation" : [ 6, 2 ],
-					"texturename" : "blue3d",
-                    "texturetype" : "traffic",
-					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
-				},
-				
-				{
-                    "texturecenterx" : [ 16, 21, 24, 32, 64, 85 ],
-                    "texturecentery" : [ 16, 21, 24, 32, 64, 85 ],
-					"textureheight" : [ 32, 42, 48, 64, 128, 170 ],
-					"textureid" : 113,
-					"texturelinear" : true,
-					"texturelocation" : [ 6, 3 ],
-					"texturename" : "blocked3d",
-                    "texturetype" : "traffic",
-					"texturewidth" : [ 32, 42, 48, 64, 128, 170 ]
-				}
+				}				
 			]
 		},
         
@@ -21609,7 +21787,7 @@
 		
 		{
 			"3dzoomfactor" : 1.0,
-			"attribute" : [ 0, 1, 10, 11, 12, 40, 41, 42, 43, 44 ],
+			"attribute" : [ 0, 1, 10, 11, 12 ],
 			"level" : 5,
 			"maxFC" : [ 2, 1, 1, 1 ],
 			"poi" : [ 69, 193, 418, 382, 383, 82 ],
@@ -21620,7 +21798,7 @@
 		
 		{
 			"3dzoomfactor" : 1.0,
-			"attribute" : [ 0, 1, 2, 10, 11, 12, 20, 40, 41, 42, 43, 44 ],
+			"attribute" : [ 0, 1, 2, 10, 11, 12, 20 ],
 			"level" : 6,
 			"maxFC" : [ 2, 2, 2, 2 ],
 			"poi" : [ 69, 211, 193, 418, 382, 383, 82, 416 ],
@@ -21631,7 +21809,7 @@
 		
 		{
 			"3dzoomfactor" : 1.0,
-			"attribute" : [ 0, 1, 2, 10, 11, 12, 20, 40, 41, 42, 43, 44 ],
+			"attribute" : [ 0, 1, 2, 10, 11, 12, 20 ],
 			"level" : 7,
 			"maxFC" : [ 3, 2, 2, 2 ],
 			"poi" : [ 69, 211, 193, 418, 382, 383, 82, 416 ],
@@ -21642,7 +21820,7 @@
 		
 		{
 			"3dzoomfactor" : 1.0,
-			"attribute" : [ 0, 1, 2, 10, 11, 12, 20, 40, 41, 42, 43, 44 ],
+			"attribute" : [ 0, 1, 2, 10, 11, 12, 20 ],
 			"level" : 8,
 			"maxFC" : [ 3, 3, 2, 2 ],
 			"poi" : [ 69, 211, 193, 418, 382, 383, 82, 416, 417 ],
@@ -21653,7 +21831,7 @@
 		
 		{
 			"3dzoomfactor" : 1.0,
-			"attribute" : [ 0, 1, 2, 10, 11, 12, 20, 40, 41, 42, 43, 44 ],
+			"attribute" : [ 0, 1, 2, 10, 11, 12, 20 ],
 			"level" : 9,
 			"maxFC" : [ 3, 3, 2, 2 ],
 			"poi" : [ 69, 211, 193, 418, 382, 383, 82, 416, 417 ],
@@ -21678,7 +21856,7 @@
 		
 		{
 			"3dzoomfactor" : 1.0,
-			"attribute" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 20, 40, 41, 42, 43, 44 ],
+			"attribute" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 20 ],
 			"level" : 10,
 			"maxFC" : [ 3, 3, 3, 2 ],
 			"poi" : [ 69, 211, 223, 197, 193, 418, 382, 383, 82, 32, 416, 417 ],

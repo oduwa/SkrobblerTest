@@ -41,6 +41,16 @@
     [[SKRoutingService sharedInstance] calculateRoute:route];
 }
 
+- (void) viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    NSArray* packages =   [[SKMapsService sharedInstance].packagesManager installedOfflineMapPackages] ; // all installed packages for all versions
+    for(SKMapPackage *p in packages){
+        NSLog(@"%@",p.name);
+    }
+}
+
 //- (void)routingService:(SKRoutingService *)routingService didFinishRouteCalculationWithInfo:(SKRouteInformation*)routeInformation{
 //    NSLog(@"Route is calculated.");
 //    [routingService zoomToRouteWithInsets:UIEdgeInsetsZero duration:1]; // zoom to current route

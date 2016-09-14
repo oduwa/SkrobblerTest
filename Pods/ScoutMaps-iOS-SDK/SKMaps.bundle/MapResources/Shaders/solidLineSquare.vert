@@ -6,8 +6,7 @@
 //  @note Created to work with a GL_TRIANGLES_STRIP structure.
 //  @note Works in world coordinates and transforms to pixels coordinates using u_scale.
 //
-//  Created by Alin Loghin on 01/12/14.
-//  Copyright (c) 2014 Skobbler. All rights reserved.
+//  Copyright (c) 2016 Skobbler. All rights reserved.
 //
 attribute highp vec4    a_position;
 attribute mediump float a_tangents;     //joint tangent, polar form

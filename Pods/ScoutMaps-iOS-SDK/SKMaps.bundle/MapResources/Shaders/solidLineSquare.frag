@@ -2,8 +2,7 @@
 //  solidLineSquare.frag
 //  @brief Fragment shader used to render antialiased segements of a solid line.
 //
-//  Created by Alin Loghin on 01/12/14.
-//  Copyright (c) 2014 Skobbler. All rights reserved.
+//  Copyright (c) 2016 Skobbler. All rights reserved.
 //
 
 uniform mediump vec2    u_uniforms;  //line width radius(pixels) and joint type(not used)

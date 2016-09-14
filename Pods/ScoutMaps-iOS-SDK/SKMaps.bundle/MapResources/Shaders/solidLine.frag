@@ -2,8 +2,7 @@
 //  solidLine.frag
 //  @brief Fragment shader used to render antialiased segements of a solid line with customizable join and caps.
 //
-//  Created by Alin Loghin on 01/12/14.
-//  Copyright (c) 2014 Skobbler. All rights reserved.
+//  Copyright (c) 2016 Skobbler. All rights reserved.
 //
 
 uniform lowp vec4      u_color;

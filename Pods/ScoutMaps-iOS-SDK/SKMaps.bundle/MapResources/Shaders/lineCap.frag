@@ -2,8 +2,7 @@
 //  lineCap.frag
 //  @brief Fragment shader used to render customizable and antialiased line caps.
 //
-//  Created by Alin Loghin on 01/12/14.
-//  Copyright (c) 2014 Skobbler. All rights reserved.
+//  Copyright (c) 2016 Skobbler. All rights reserved.
 //
 
 uniform mediump vec3    u_uniforms;     //line width radius, start and end cap type

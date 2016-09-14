@@ -105,7 +105,8 @@ void main()
     if(coord < 3.5)
     {
         //current angle
-        float angle = mix(a_angles.x, a_angles.y, (1.0 + u) * 0.5);
+        mediump float usePrevAngle =  (1.0 + u) * 0.5;
+        float angle = mix(a_angles.x, a_angles.y, usePrevAngle);
         vec2 t  = normalize(t1+t2);
         vec2 o  = vec2(t.y, - t.x);
         position += (u_line_offset / u_scale) * o;

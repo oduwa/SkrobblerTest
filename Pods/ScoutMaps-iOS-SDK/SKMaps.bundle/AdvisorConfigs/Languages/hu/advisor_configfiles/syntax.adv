@@ -16,9 +16,5 @@ $consonants = bcdfghjklmnpqrstvwxyz
 
 $nameOrRef|startsWith|vowel|prepend|az
 $nameOrRef|startsWith|consonant|prepend|a
-@$nameOrRef|endsWith|utca|append|ára
 $nameOrRef|endsWith|vowel|append|re
 $nameOrRef|endsWith|consonant|append|ra
-$nameOrRef|endsWith|1,2,4,7,9|append|re
-$nameOrRef|endsWith|3,6,8|append|ra
-$nameOrRef|endsWith|5|append|re

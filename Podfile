@@ -5,6 +5,7 @@ use_frameworks!
 target 'SkrobblerTast' do
 
   # Pods for SkrobblerTast
-  pod 'ScoutMaps-iOS-SDK’
+  pod 'ScoutMaps-iOS-SDK', '~> 3.0'
+  pod 'NVHTarGzip'
 
 end

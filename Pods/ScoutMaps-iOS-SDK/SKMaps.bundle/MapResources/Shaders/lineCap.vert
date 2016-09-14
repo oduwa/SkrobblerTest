@@ -5,8 +5,7 @@
 //  @note Created to work with a GL_TRIANGLES structure.
 //  @note Works in world coordinates and transforms to pixels coordinates using u_scale.
 //
-//  Created by Alin Loghin on 01/12/14.
-//  Copyright (c) 2014 Skobbler. All rights reserved.
+//  Copyright (c) 2016 Skobbler. All rights reserved.
 //
 attribute highp vec4    a_position;
 attribute mediump float a_tangents;     //cap tangent, polar form
@@ -30,7 +29,8 @@ void main()
     
     mediump float coord = abs(a_lineCoord);
     //invert offset cap due to flipped tangent
-    mediump float lineOffset = mix(-u_line_offset, u_line_offset, mod(coord, 2.0));
+    mediump float flipOffset = mod(coord, 2.0);
+    mediump float lineOffset = mix(-u_line_offset, u_line_offset, flipOffset);
     //check if start or end points
     mediump float u = step(2.5, coord);
     //left/right direction

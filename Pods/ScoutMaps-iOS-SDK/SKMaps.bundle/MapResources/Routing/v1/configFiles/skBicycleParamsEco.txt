@@ -43,25 +43,26 @@ B:11,gate,walk,0,400
 /*SURFACE TYPE: penalization factors used in routing depending on the surface type.
   - lines must start with “F:”
   - column separator is ‘,’
-  - 3 columns:
-	1.The surface type index. Must start from 0. DO NOT CHANGE VALUES HERE!
+  - columns:
+    1.The surface type index. Must start from 0. DO NOT CHANGE VALUES HERE!
     2.The name of the surface-type. Can be changed, but should not contain the separator
-	Values:
-	   - no info available;
-	   - paved:
-	   - cobbles:
-	   - unpaved:
-	   - slow:
-	3.The penalization factor:
-	   - Must be positive and normally equal or greater than 1.
-   	   - A value of 1 means no penalization
-       - If below equal or below zero —> error
+       Values:
+        - no info available;
+        - paved:
+        - cobbles:
+        - unpaved:
+        - slow:
+    3.The routing penalization factor 
+    4.The ETA penalization factor
+        - They must be positive and normally equal or greater than 1.
+        - A value of 1 means no penalization
+        - If below equal or below zero —> error
 */
-F:0,no info available,1.0
-F:1,paved,1.0
-F:2,cobbles,1.2
-F:3,unpaved,1.4
-F:4,slow,1.6
+F:0,no info available,1.0,1.0
+F:1,paved,1.0,1.0
+F:2,cobbles,1.2,1.2
+F:3,unpaved,1.4,1.4
+F:4,slow,1.6,3.0
 
 /*ROAD WIDTH: defines penalization factors depending on road width. Used in bicycle routing.
   - lines must start with “W:”
@@ -146,7 +147,7 @@ energyConsumption[31]={0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.7395504,4.4476889,5.4306439
 
 */
 //Impose the use of slope routing, i.e. overwrittes the correponding entry from the routing input
-kImposeTheUseOfSlopeRouting		1
+kImposeTheUseOfSlopeRouting,1
 SA:energy
 S:-15,0
 S:-14,0
@@ -240,7 +241,7 @@ H:train_ferry               		391	20	20	100
 //So it does not influence directly ETA, or any route output parameter.
 //Changing it affects the way the algorithm runs in terms of explored segments, how many and in what way. So indirectly it influences running time, memory consumption, route quality.
 //Again: best value: the maximum speed above.
-kBICYCLE_SCALING_SPEED		20.0
+kBICYCLE_SCALING_SPEED,20.0
 
 /*GENERAL CONSTANTS: these are used to configure the routing algorithm
   - some of them are above this line
@@ -254,7 +255,7 @@ Each parameter has a small explanation in front of it.
 */
 
 //Avoid ferry lines penalty factor: applied to ferry lines when “avoid ferry lines” option  in on
-kAvoidFerriesPenaltyFactor		4
+kAvoidFerriesPenaltyFactor,4
 
 
 
@@ -263,11 +264,11 @@ kAvoidFerriesPenaltyFactor		4
 // Slopes --> the S: entries
 
 // Cycling modes (ride, walk, carry, forbidden)
-kBicycleModeWalk_speed		1
-kBicycleModeCarry_speed		1
-kBicycleModeWalk_factor		1
-kBicycleModeCarry_factor	1
-kBicycleModeForbidden_factor	100
+kBicycleModeWalk_speed,1
+kBicycleModeCarry_speed,1
+kBicycleModeWalk_factor,1
+kBicycleModeCarry_factor,1
+kBicycleModeForbidden_factor,100
 
 // Widths (for paths and lanes) --> the W: entries
 
@@ -276,11 +277,11 @@ kBicycleModeForbidden_factor	100
 // Quietness factors
 // Note that some quietness factors like greenspace and industrial are not implemented, and will rely
 // on interpreting the area that the path crosses
-kBicycleQuietMajorRoad_factor		1.0
-kBicycleQuietMediumRoad_factor		1.0
-kBicycleQuietPath_factor		1.0
-kBicycleGreenspace_factor		1.0
-kBicycleIndustrial_Factor		1.0
+kBicycleQuietMajorRoad_factor,1.0
+kBicycleQuietMediumRoad_factor,1.0
+kBicycleQuietPath_factor,1.0
+kBicycleGreenspace_factor,1.0
+kBicycleIndustrial_Factor,1.0
 
 //Carry bicycle over steps:
-kBicycleDelayPerStep		0.0
+kBicycleDelayPerStep,0.0
